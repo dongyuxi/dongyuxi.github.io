@@ -5,11 +5,11 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-You will have it if it belongs to you,whereas you don't kvetch for it if it doesn't appear in your life.
+_**You will have it if it belongs to you,whereas you don't kvetch for it if it doesn't appear in your life.**_
 
 I was born in 1988.
 
-I come from HeiLongJian, QiQiHar.
+I come from HeiLongJiang, QiQiHar.
 
 I graduated from Harbin Institute of Technology in 2013.
 
