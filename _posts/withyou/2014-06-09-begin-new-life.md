@@ -1,8 +1,8 @@
 ---
 layout: page
 title: CFA考试结束的周末
-category: withYou
-tag: withYou
+category: withyou
+tag: withyou
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
