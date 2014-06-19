@@ -31,4 +31,4 @@ tagline: Supporting tagline
 <img src="/assets/pictures/IMG_20140608_151545.jpg" height="100%" width="100%">
 <img src="/assets/pictures/IMG_20140608_151845.jpg" height="100%" width="100%">
 
-Finished on {{ page.date | date_to_string }}
+Finished on {{ page.date | date_to_string }}......

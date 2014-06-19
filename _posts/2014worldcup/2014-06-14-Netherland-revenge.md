@@ -16,4 +16,4 @@ tagline: Supporting tagline
 <img src="/assets/pictures/2014worldcup/Van-Persie-Diving-Header.jpg" height="100%" width="100%">
 <img src="/assets/pictures/2014worldcup/Robben-Revenge.jpg" height="100%" width="100%">
 
-Finished on {{ page.date | date_to_string }}
+Finished on {{ page.date | date_to_string }}......

@@ -11,4 +11,4 @@ tagline: Supporting tagline
 
 <img src="/assets/pictures/2014worldcup/Pirlo-And-Balotelli.jpg" height="100%" width="100%">
 
-Finished on {{ page.date | date_to_string }}
+Finished on {{ page.date | date_to_string }}......
