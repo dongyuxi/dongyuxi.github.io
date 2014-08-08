@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 导员又征服了一个
+title: 哈尔滨工业大学建校90周年校庆晚会 王树国献唱
 category: life
-tag: 大学 寝室 导员 征服
+tag: 哈尔滨工业大学 哈工大 校庆 晚会
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
