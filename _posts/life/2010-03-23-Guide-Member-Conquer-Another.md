@@ -2,7 +2,7 @@
 layout: page
 title: 导员又征服了一个
 category: life
-tag: 大学 寝室 导员 征服
+tag: 哈工大 计算机学院 大学 寝室 导员 征服
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
