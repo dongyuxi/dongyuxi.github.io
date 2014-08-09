@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: post
 title: 嫌疑人X的献身 书评 
-category: books
-tag: 嫌疑人X 东野圭吾 书评
+categories: books
+tags: 嫌疑人X 东野圭吾 书评
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
-
 <img src="/assets/pictures/books/Suspects-X.jpg" width="30%" align="left" />
 
 好久不看这种推理小说了，但是每看到好看的悬疑小说的话还是会拿来好好看一遍的，当然是买来的属于自己的纸质的那种，我对电子版没什么好感。
@@ -30,5 +28,3 @@ tagline: Supporting tagline
 不管别人如何评价书中的人物，在我看来最精彩的就是坐着巧妙的构思和引人入胜的叙事风格，当然人物的性格也在这其中变得非常饱满。不得不承认不愧是本有史以来唯一一部同时摘取三大推理小说排行榜年度总冠军的顶尖杰作。
 
 下面我要开始看他的成名作《放学后》了。
-
-Finished on {{ page.date | date_to_string }}......

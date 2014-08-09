@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: post
 title: 哈尔滨工业大学建校90周年校庆晚会 王树国献唱
-category: life
-tag: 哈尔滨工业大学 哈工大 校庆 晚会
+categories: life
+tags: 哈尔滨工业大学 哈工大 校庆 晚会
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
-
 真是出乎了我的意料哇，哈工大向来向我们展示他的严谨工作，科研争先的一面，今天晚上向我们展示了他的另一面，青春时尚，厚重坚实。
 
 晚会观众各个班级是有名额限制的，我们班正好10人，我非常顺利的进入了这个小组，非常的兴奋，这对我这个对文艺活动要求很高的人来说确实少有，因为我很少这么期待一个校级的晚会。
@@ -48,5 +46,3 @@ tagline: Supporting tagline
 现在我们真的很累呀，因为明天早晨还有90周年大会；可是我们也很高兴，因为我们都是哈工大人！
 
 PS：大家想看完整版请到：http://v.youku.com/v_show/id_XMTc5MTA1MDI0.html
-
-Finished on {{ page.date | date_to_string }}......
