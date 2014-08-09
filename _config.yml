@@ -11,12 +11,13 @@ pygments: true
 title : Dong Yuxi's Blog
 tagline: Site Tagline
 author :
-  name : Yuxi
+  name : 董玉玺 DongYuxi
   email : dongyuxi2004@163.com
   weibo : orange2010road
   github : dongyuxi
   twitter : username
   feedburner : feedname
+description : 董玉玺的个人博客
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
