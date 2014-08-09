@@ -3,6 +3,7 @@ layout: post
 title: 三国杀满级有感 - 人生需要感谢错误 
 categories: life
 tags: 三国杀 人生
+keywords: 三国杀,人生
 tagline: Supporting tagline
 ---
 <img src="/assets/pictures/life/Sanguosha-Full-Level.png" width="50%" align="left" />

@@ -2,7 +2,8 @@
 layout: post
 title: 嫌疑人X的献身 书评 
 categories: books
-tags: 嫌疑人X 东野圭吾 书评
+tags: 悬疑小说 东野圭吾 书评
+keywords: 悬疑小说,嫌疑人X的献身,东野圭吾,书评
 tagline: Supporting tagline
 ---
 <img src="/assets/pictures/books/Suspects-X.jpg" width="30%" align="left" />

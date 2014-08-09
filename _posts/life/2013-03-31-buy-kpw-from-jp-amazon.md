@@ -3,6 +3,7 @@ layout: post
 title: 日本亚马逊Jshoppers转运海淘kindle paperwhite简要文字攻略
 categories: life
 tags: 经验 亚马逊 日亚 kindle paperwhite jshoppers 海淘 amazon
+keywords: 经验,亚马逊,日亚, kindle,paperwhite,jshoppers,海淘,amazon
 tagline: Supporting tagline
 ---
 Amazon（亚马逊）公司出的kindle paperwhite（kpw）已经在中国上市了1年多了，现在是第二代，售价仍是899.00元，不知道8.19的店庆上是否会有大型活动。我是去年年初的时候在日本亚马逊通过Jshoppers转运公司购买了第一代，虽然价格和购买的细节发生了一些变化，但是整体流程没变，所以在此我忽略掉一些和时间有关的细节，把整体流程描述下。闲话少说，现在就开始！

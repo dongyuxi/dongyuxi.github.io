@@ -3,6 +3,7 @@ layout: post
 title: 哈尔滨工业大学建校90周年校庆晚会 王树国献唱
 categories: life
 tags: 哈尔滨工业大学 哈工大 校庆 晚会
+keywords: 哈尔滨工业大学,哈工大,校庆,晚会
 tagline: Supporting tagline
 ---
 真是出乎了我的意料哇，哈工大向来向我们展示他的严谨工作，科研争先的一面，今天晚上向我们展示了他的另一面，青春时尚，厚重坚实。
