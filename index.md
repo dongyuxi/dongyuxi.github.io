@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Welcome To Yuxi's World! | 欢迎来到董玉玺的博客
-tag: 董玉玺,dongyuxi
+title: Welcome To My World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
