@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 杀人回忆 影评 
-categories: books
+categories: movies
 tags: 杀人回忆 韩国 电影 悬疑 经典 影评
 keywords: 杀人回忆,韩国,电影,悬疑,经典,影评
 tagline: Supporting tagline
