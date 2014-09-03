@@ -6,7 +6,7 @@ tags: linux tar
 keywords: linux,tar,命令,参数
 tagline: Supporting tagline
 ---
-tar -[c|x|t|u|r][z|j][v]f <打包文件> 文件 [-C <路径>]
+<pre>tar -[c|x|t|u|r][z|j][v]f <打包文件> 文件 [-C <路径>]
 
     -c 创建文档
     -x 解压文档
@@ -21,4 +21,4 @@ tar -[c|x|t|u|r][z|j][v]f <打包文件> 文件 [-C <路径>]
 
     -f 后面直接跟要执行的文件名称
 
-    -C 将压缩文件解压到指定目录
+    -C 将压缩文件解压到指定目录</pre>
