@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 走过心尖儿的文字1
+title: 走过心尖儿的文字2
 categories: life
 tags: 文字
 keywords: 走左心尖儿的文字
