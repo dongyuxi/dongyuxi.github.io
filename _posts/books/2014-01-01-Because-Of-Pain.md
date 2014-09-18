@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 嫌疑人X的献身 书评 
+title: 因为痛，所以叫青春 摘录
 categories: books
-tags: 悬疑小说 东野圭吾 书评
-keywords: 悬疑小说,嫌疑人X的献身,东野圭吾,书评
+tags: 书评 励志
+keywords: 励志,书评
 tagline: Supporting tagline
 ---
 第一章——我们的希望在哪里
