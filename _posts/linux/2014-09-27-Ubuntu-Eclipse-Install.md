@@ -21,18 +21,18 @@ tagline: Supporting tagline
 Step 1：访问Eclipse官网下载需要的版本，例如eclipse-jee-luna-SR1-linux-gtk.tar.gz。
 
 Step 2：执行命令
-> sudo tar -zxf eclipse-jee-luna-SR1-linux-gtk.tar.gz -C /opt
+<pre>sudo tar -zxf eclipse-jee-luna-SR1-linux-gtk.tar.gz -C /opt</pre>
 将压缩文件解压到/opt目录下面，现在到/opt/eclipse/eclipse就可以直接运行Eclipse了。
 
 Step 3：将Eclipse添加到程序启动图标。在/usr/share/applications目录下面创建eclipse.desktop，输入如下内容。
-> [Desktop Entry]
-> Comment=Java IDE
-> Name=Eclipse
-> Exec=/opt/eclipse/eclipse
-> Encoding=UTF-8
-> Terminal=false
-> Type=Application
-> Categories=Application;Development;
-> Icon=/opt/eclipse/icon.xpm
+<pre>[Desktop Entry]
+Comment=Java IDE
+Name=Eclipse
+Exec=/opt/eclipse/eclipse
+Encoding=UTF-8
+Terminal=false
+Type=Application
+Categories=Application;Development;
+Icon=/opt/eclipse/icon.xpm</pre>
 
 安装结束！
