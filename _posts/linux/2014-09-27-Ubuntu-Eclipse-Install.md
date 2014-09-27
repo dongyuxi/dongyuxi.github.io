@@ -34,5 +34,6 @@ Terminal=false
 Type=Application
 Categories=Application;Development;
 Icon=/opt/eclipse/icon.xpm</pre>
+现在就可以看到Eclipse在应用程序里面了。
 
 安装结束！
