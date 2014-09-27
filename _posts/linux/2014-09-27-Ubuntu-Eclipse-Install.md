@@ -12,7 +12,7 @@ tagline: Supporting tagline
 + 优点：操作简单
 + 缺点：版本限制
 执行命令
-> sudo apt-get install eclipse-platform
+<pre>sudo apt-get install eclipse-platform</pre>
 这样就可以直接使用Eclipse，不过Eclipse和JDK的版本和源有关系。
 
 方法2：从官网下载安装包手动安装
