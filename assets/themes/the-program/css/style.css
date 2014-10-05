@@ -131,7 +131,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, serif;
+  font-family: consolas, monaco, monospace;
   _font-family: 'courier new', monospace;
   font-size: 1em;
 }
@@ -454,7 +454,7 @@ ol,
 dl,
 img {
   margin-top: 0;
-  margin-bottom: 1.625em;
+  margin-bottom: 0.75em;
 }
 small,
 .small,
@@ -571,16 +571,15 @@ a:hover {
 }
 /* HIGHLIGHTER */
 pre {
-  margin-bottom: 1.625em;
-}
-pre {
   color: #f2f2f2;
-  background-color: #393939;
+  background-color: #e0e0e0;
   border: 1px solid #393939;
   font-family: consolas, monaco, monospace;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 1.625em;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
   overflow: auto;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
