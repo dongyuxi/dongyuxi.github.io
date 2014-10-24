@@ -9,17 +9,21 @@ tagline: Supporting tagline
 
 _You will have it if it belongs to you,whereas you don't kvetch for it if it doesn't appear in your life._
 
-This is my first article on github. 
+<pre>This is my first article on github. 
 
-When I wake up in the morning of someday, I realize that I should do something meaning.
+When I wake up in the morning of someday, I realize that I should do something meaningful.
 
 I try to tell myself that I could continue living without changing, but it is really a pitty that no intersting work has been finished when young.
 
 I hope I could update this blog every day before 00:00 to record my life and work in the future.
 
-Most of my articles may be written by Chinese, but I will try to post some using English.
+Most of my articles may be written by Chinese, but I will try to post some using English.</pre>
 
-Here is a short introduction:
+***
+
+_Here is a short introduction_
+
+<img src="/assets/pictures/photo.jpg" width="25%" align="left" />
 
 _I was born in 1988._
 
