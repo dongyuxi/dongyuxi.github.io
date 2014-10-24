@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 日本亚马逊Jshoppers转运海淘kindle paperwhite简要文字攻略
-categories: life
+categories: experience
 tags: 经验 亚马逊 日亚 kindle paperwhite jshoppers 海淘 amazon
 keywords: 经验,亚马逊,日亚, kindle,paperwhite,jshoppers,海淘,amazon
 tagline: Supporting tagline

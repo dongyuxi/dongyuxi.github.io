@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Code Prettify代码高亮 
-categories: linux
+categories: experience
 tags: linux google code
 keywords: linux,google,code,命令,参数
 tagline: Supporting tagline
