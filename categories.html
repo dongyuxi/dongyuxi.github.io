@@ -1,22 +1,26 @@
 ---
-layout: page
-title: Categories
-header: Posts By Category
-group: navigation
+layout: default
+title: 文章分类
 ---
-{% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
-</ul>
-
-
-{% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+<link rel="stylesheet" href="/res/css/page.css">
+{% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign category = categories | split:',' | sort %}
+<h2 class="category">分类</h2>
+<div class="category-box">
   <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
+    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+    {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
+    <li class="category-box-sub"><a href="#{{ word }}">{{ word }}&nbsp;<sup>{{ site.categories[word].size }}</sup></a></li>
+    {% endunless %}{% endfor %}
   </ul>
-{% endfor %}
-
+</div>
+<hr id="line"/>
+{% for item in (0..site.categories.size) %}{% unless forloop.last %}
+{% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
+<h2 class="category" id="{{ word }}">{{ word }}</h2>
+{% for post in site.categories[word] %}{% if post.title != null %}
+<ul><li class="category-sub">{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a class="category-sub-title" href="{{ post.url }}">{{ post.title }}</a></li></ul>
+{% endif %}{% endfor %}
+{% endunless %}{% endfor %}
+<br/><br/>

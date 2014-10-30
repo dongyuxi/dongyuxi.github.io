@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="author" content="{{ site.author.name }}">
+  {% if page.index == true %}<title>{{ site.blog.title }}</title>{% else %}<title>{{ page.title }} - {{ site.blog.title }}</title>{% endif %}
+  <meta name="description" content="{{ page.title }},{{ site.blog.title }},{{ site.blog.description }},{{ page.keywords }},{{ site.author.name }}">
+  <meta name="keywords" content="{{ page.title }},{{ site.blog.title }},{{ site.blog.description }},{{ page.keywords }},{{ site.author.name }}">
+  {% if page.index == true %}<link rel="canonical" href="{{ site.blog.url }}">{% else %}<link rel="canonical" href="{{ site.blog.url }}{{ page.url }}">{% endif %}
+  {% if page.index == true %}<meta name="msvalidate.01" content="9A3D1885B1F2FF03165559FC13703DA8" />
+  <meta name="sogou_site_verification" content="k5bkT2kEdA"/>
+  <meta name="baidu-site-verification" content="K22Gr2bEEr" />
+  <meta name="360-site-verification" content="c4098bc367cb5827456c18383798c531" />
+  <meta name="google-site-verification" content="tlCqLLY6Xm50qkvmeSim8EPEM1lZO8jmLZT-AINMMAs" />{% endif %}
+  <link rel="icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/res/css/public.css">
+  <link rel="stylesheet" href="/res/css/light.css">
+  <script src="/res/js/light.js"></script>
+</head>
+<body>
+  <div id="blog">
+    <div class="main">
+    {{ content }}
+    {% include themes/jekyll-light/footer.html %}
+	{% include themes/jekyll-light/sidebar.html %}
+	  <!--搜狐畅言高速版，加载速度快，使用前需测试页面的兼容性-->
+	<div id="SOHUCS"></div>
+	<script>
+	  (function(){
+		var appid = 'cyrjMBqLp',
+		conf = 'prod_d75aeeb2ec544ab7dfb903a3275d0777';
+		var doc = document,
+		s = doc.createElement('script'),
+		h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+		s.type = 'text/javascript';
+		s.charset = 'utf-8';
+		s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+		h.insertBefore(s,h.firstChild);
+		window.SCS_NO_IFRAME = true;
+	  })()
+	</script>
+    </div>
+  </div>
+  <div id="top"><a id="rocket" href="javascript:;" title="返回顶部"><i></i></a></div>
+</body>
+</html>
