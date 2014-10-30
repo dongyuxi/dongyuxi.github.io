@@ -6,9 +6,9 @@ tags: 三国杀 人生
 keywords: 三国杀,人生
 tagline: Supporting tagline
 ---
-<img src="/assets/pictures/life/Sanguosha-Full-Level.png" width="50%" align="left" />
-
 没想到这个曾经让我痴迷疯狂的额游戏最后只能通过砸铜钱来长经验了，在经过前端时间的"折磨"后，我的三国杀终于升到了150级。
+
+<img src="/assets/pictures/life/Sanguosha-Full-Level.png" align="left" />
 
 我现在已经不能通过这个游戏找到任何的快乐了，只有机械的操作，自己伙的人出错了牌也不会生气。是时候告别这个游戏了！
 
