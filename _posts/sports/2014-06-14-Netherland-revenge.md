@@ -12,5 +12,5 @@ tagline: Supporting tagline
 
 下面来两张进球图片，期待下一场比赛。
 
-<img src="/assets/pictures/2014worldcup/Van-Persie-Diving-Header.jpg" height="100%" width="100%">
-<img src="/assets/pictures/2014worldcup/Robben-Revenge.jpg" height="100%" width="100%">
+<img src="/assets/pictures/2014worldcup/Van-Persie-Diving-Header.jpg">
+<img src="/assets/pictures/2014worldcup/Robben-Revenge.jpg">
