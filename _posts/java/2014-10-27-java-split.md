@@ -16,10 +16,10 @@ String[] arr = line.split("|");
 
 其实仔细看一下split的函数原型
 	
-	```java
-	split(String regex);
-	split(String regex, int limit);
-	```
+```java
+split(String regex);
+split(String regex, int limit);
+```
 	
 就神马都懂了，里面是正则表达式，所以如果想使用竖线，那么就要转义，而java中又要二次转义，即
 

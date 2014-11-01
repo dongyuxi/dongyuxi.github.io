@@ -1,4 +1,4 @@
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: /:categories/:year-:month-:day/:title.html
 paginate_path: page/:num
