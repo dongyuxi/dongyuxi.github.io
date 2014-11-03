@@ -20,4 +20,6 @@ Google QR API：
 
     https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=http://dongyuxi.github.io
 
-![](https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=http://dongyuxi.github.io)
+![Simple Blog - 董玉玺的个人博客](https://chart.googleapis.com/chart?cht=qr&chs=200x200&chl=http://dongyuxi.github.io)
+
+但是貌似杯具了，我在我的测试环境完全没问题，而且在我的电脑访问也没问题，但是在3G手机上和公司网络都不可以，我突然意识到，我们之间隔了一道墙。
