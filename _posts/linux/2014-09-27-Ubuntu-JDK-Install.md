@@ -27,6 +27,7 @@ Setp 3. 执行命令
 将解压出来的文件夹移动到/opt/java文件夹下面（注：此处目录不是固定的，也可以使用/usr/local/）。
 
 Step 4. 将如下代码加入到~/.bashrc文件中
+
     # Set jdk environment
     export JAVA_HOME=/opt/java/jdk1.8.0_20
     export export PATH=$JAVA_HOME/bin:$PATH
