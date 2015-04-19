@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LeetCode 056 - Maximum Subarray - 题解/Solution 
+title: LeetCode 056 - Merge Intervals - 题解/Solution 
 categories: Leetcode
 tags: leetcode java
 keywords: leetcode,java,solution,题解,解题报告
