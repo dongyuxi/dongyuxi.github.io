@@ -8,49 +8,32 @@ tagline: Supporting tagline
 ---
 ***<https://leetcode.com/problems/excel-sheet-column-title/>***
 <pre><code>/**
- * Given two integers representing the numerator and denominator of a fraction,
- * return the fraction in string format.
+ * Given a positive integer, return its corresponding column title as appear in
+ * an Excel sheet.
  * 
- * If the fractional part is repeating, enclose the repeating part in
- * parentheses.
- * 
- * For example,
- * 
- * Given numerator = 1, denominator = 2, return "0.5".
- * Given numerator = 2, denominator = 1, return "2".
- * Given numerator = 2, denominator = 3, return "0.(6)".
- * 
+ * For example:
+ *  1 -> A
+ *  2 -> B
+ *  3 -> C
+ *  ...
+ *  26 -> Z
+ *  27 -> AA
+ *  28 -> AB 
  * 
  * @author dongyuxi
  *
  */
 public class Solution {
-    public String fractionToDecimal(int numerator, int denominator) {
-        long numeratorLong = Math.abs((long)numerator);
-        long denominatorLong = Math.abs((long)denominator);
+    public String convertToTitle(int n) {
+        if (n <= 0) {
+            return null;
+        }
         StringBuilder sb = new StringBuilder();
-        if ((numerator < 0 && denominator > 0) || (numerator > 0 && denominator < 0)) {
-            sb.append("-");
+        while (n > 0) {
+            sb.append((char)((n - 1) % 26 + 'A'));
+            n = (n - 1) / 26;
         }
-        sb.append(numeratorLong / denominatorLong);
-        long remaining = numeratorLong % denominatorLong;
-        if (0 != remaining) {
-            sb.append(".");
-            Map<Long, Integer> map = new HashMap<Long, Integer>();
-            while (0 != remaining) {
-                if (map.containsKey(remaining)) {
-                    sb.insert(map.get(remaining), "(");
-                    sb.append(")");
-                    break;
-                }
-                map.put(remaining, sb.length());
-                remaining *= 10;
-                sb.append(remaining / denominatorLong);
-                remaining %= denominatorLong;
-            }
-        }
-
-        return sb.toString();
+        return sb.reverse().toString();
     }
 }
 </code></pre>
