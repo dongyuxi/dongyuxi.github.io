@@ -23,6 +23,7 @@
   <div id="blog">
     <div class="main">
         {{ content }}
+        {% if page.index != true %}
         <!-- Google Ad Code -->
         <script type="text/javascript">
             google_ad_client = "ca-pub-5874431741722077";
@@ -34,6 +35,7 @@
         <script type="text/javascript"
         src="//pagead2.googlesyndication.com/pagead/show_ads.js">
         </script>
+        {% endif %}
         <!--搜狐畅言高速版，加载速度快，使用前需测试页面的兼容性-->
         <div id="SOHUCS"></div>
             <script>
