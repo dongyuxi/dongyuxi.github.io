@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 重温儿时经典 吞食天地2 
-categories: life
-tags: 吞食天地
+categories: 生活
+tags: 游戏 感悟
 keywords: 吞食天地,人生
 tagline: Supporting tagline
 ---
@@ -10,7 +10,7 @@ tagline: Supporting tagline
 
 在浏览游戏网站的时候突然发现了一款游戏，瞬时勾起了我的回忆，记忆像涛涛的江水不断涌入我的脑海！《吞食天地2：复刻版》！！！马上下载！！！下载后没有马上安装，自以为画面分辨率肯定差太多，而且都玩过很多遍，不用着急。
 
-<img src="/assets/pictures/life/Devour-The-World.png" />
+<img src="/public/img/life/Devour-The-World.png" />
 
 而今天当我真的安装后打开这款游戏的时候，我的眼眶真的湿润了。当年电视上的画面重新呈现在如今的电脑中，和邻居家的小朋友完了一个寒假竟然不知道这个游戏是需要存档的，每次都从游戏的最开始打，每次打的时候都要比前一天打的距离远一点，但是那时候真心没见过这种卡带啊，还能放电池！！！原来是需要一个电池来支持存储游戏进度的。最后由于邻居家的小伙伴搬家了，由我自己连续打通了两遍，真是佩服自己的耐心啊！
 

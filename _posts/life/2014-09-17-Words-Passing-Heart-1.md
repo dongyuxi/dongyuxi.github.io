@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 走过心尖儿的文字1
-categories: life
+categories: 生活
 tags: 文字
 keywords: 走左心尖儿的文字
 tagline: Supporting tagline

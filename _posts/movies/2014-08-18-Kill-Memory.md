@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 杀人回忆 影评 
-categories: movies
-tags: 杀人回忆 韩国 电影 悬疑 经典 影评
+categories: 电影
+tags: 悬疑 影评
 keywords: 杀人回忆,韩国,电影,悬疑,经典,影评
 tagline: Supporting tagline
 ---
@@ -19,7 +19,7 @@ tagline: Supporting tagline
 
 当找到第二个嫌疑人手淫男的时候，一个非常关键的人物在审讯中出现了，就是影片中嫌疑程度最高的，但是出现仅仅不到1分钟的锅炉男。他快步的出现在审讯室里面，当手淫男陈述自己想象的犯案过程的时候，他很关心的回头，然后继续干活，修好之后他慢步的走上台阶时穿的皮鞋也正是最后一个受害人遇害时候凶手的皮鞋。而且注意锅炉男始终是带着手套，所以那个唯一幸存的疯女人说的手很软也是有可能的。
 
-<img style="float: left" src="/assets/pictures/movies/Kill-Memory/Suspect-1.png" width="50%" /><img style="float: right" src="/assets/pictures/movies/Kill-Memory/Suspect-2.png" width="50%" />
+<img style="float: left" src="/public/img/movies/Kill-Memory/Suspect-1.png" width="50%" /><img style="float: right" src="/public/img/movies/Kill-Memory/Suspect-2.png" width="50%" />
 
 影片中的第三个嫌疑人小白脸的出现让很多观众认为找到了真凶，各项条件都符合的他最后因为美国DNA检验的不符合将所有否定。在对小白脸的追查过程中，智障男说出了凶手的关键词——“热”，和他的疤有关系，再一次佐证了小白脸不能是凶手，因为他9个月前才过来。当然有人怀疑和智障男的父亲有关系，但是从智障男对父亲的信任来看应该不是，所以应该还是锅炉男在他小的时候曾经伤害过他。
 

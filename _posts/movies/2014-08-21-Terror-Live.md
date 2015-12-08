@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 恐怖直播 影评 
-categories: movies
-tags: 恐怖直播 韩国 电影 悬疑 经典 影评
+categories: 电影
+tags: 悬疑 影评
 keywords: 恐怖直播,韩国,电影,悬疑,经典,影评
 tagline: Supporting tagline
 ---

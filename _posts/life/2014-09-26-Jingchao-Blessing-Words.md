@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 王景超新婚祝福
-categories: life
+categories: 生活
 tags: 文字
 keywords: 王景超,结婚,祝福
 tagline: Supporting tagline

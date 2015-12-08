@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LeetCode 074 - Search a 2D Matrix - 题解/Solution 
-categories: Leetcode
+categories: 刷题
 tags: leetcode java
 keywords: leetcode,java,solution,题解,解题报告
 tagline: Supporting tagline

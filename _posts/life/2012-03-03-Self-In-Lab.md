@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 一个人在实验室有感
-categories: life
-tags: 校园 三国杀
+categories: 生活
+tags: 三国杀
 keywords: 校园,三国杀
 tagline: Supporting tagline
 ---

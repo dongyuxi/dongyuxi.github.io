@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 哈尔滨工业大学建校90周年校庆晚会 王树国献唱
-categories: life
-tags: 哈尔滨工业大学 哈工大 校庆 晚会
+categories: 生活
+tags: 哈工大
 keywords: 哈尔滨工业大学,哈工大,校庆,晚会
 tagline: Supporting tagline
 ---

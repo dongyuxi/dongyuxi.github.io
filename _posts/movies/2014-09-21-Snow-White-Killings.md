@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 白雪公主杀人事件 影评 
-categories: movies
-tags: 日本 电影 悬疑 经典 影评
+categories: 电影
+tags: 悬疑 影评
 keywords: 白雪公主杀人事件,韩国,电影,悬疑,经典,影评
 tagline: Supporting tagline
 ---

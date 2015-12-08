@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 橙衣军团的复仇
-categories: sports
-tags: 世界杯 荷兰 橙衣军团
+categories: 体育
+tags: 世界杯
 keywords: 世界杯,荷兰,橙衣军团
 tagline: Supporting tagline
 ---
@@ -12,5 +12,5 @@ tagline: Supporting tagline
 
 下面来两张进球图片，期待下一场比赛。
 
-<img src="/assets/pictures/2014worldcup/Van-Persie-Diving-Header.jpg">
-<img src="/assets/pictures/2014worldcup/Robben-Revenge.jpg">
+<img src="/public/img/2014worldcup/Van-Persie-Diving-Header.jpg">
+<img src="/public/img/2014worldcup/Robben-Revenge.jpg">

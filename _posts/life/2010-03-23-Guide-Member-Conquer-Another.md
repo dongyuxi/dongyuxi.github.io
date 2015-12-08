@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 导员又征服了一个
-categories: life
-tags: 哈工大 计算机学院 大学 寝室 导员 征服
+categories: 生活
+tags: 哈工大
 keywords: 哈工大,计算机学院,大学,寝室,导员,征服
 tagline: Supporting tagline
 ---

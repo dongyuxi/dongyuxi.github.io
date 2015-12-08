@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 嫌疑人X的献身 书评 
-categories: books
-tags: 悬疑小说 东野圭吾 书评
+categories: 读书
+tags: 悬疑 东野圭吾 书评
 keywords: 悬疑小说,嫌疑人X的献身,东野圭吾,书评
 tagline: Supporting tagline
 ---
 好久不看这种推理小说了，但是每看到好看的悬疑小说的话还是会拿来好好看一遍的，当然是买来的属于自己的纸质的那种，我对电子版没什么好感。
 
-<img src="/assets/pictures/books/Suspects-X.jpg" align="left" />
+<img src="/public/img//books/Suspects-X.jpg" align="left" />
 
 我的第一本小说就是初中时候看的《福尔摩斯探案集》，我还清晰的记得四个案件分别是“血字的研究”、“四个签名”、“巴斯克维尔的猎犬”和“恐怖谷”；随后我就没再看什么这方面的书啦，直到高中的时候发现了丹·布朗的《达芬奇密码》，随后有一口气买了他的《数字城堡》、《天使与魔鬼》和《骗局》，当然还有最新的《消失的秘符》。
 

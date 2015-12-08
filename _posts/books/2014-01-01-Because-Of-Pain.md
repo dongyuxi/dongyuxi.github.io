@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 因为痛，所以叫青春 摘录
-categories: books
+categories: 读书
 tags: 书评 励志
 keywords: 励志,书评
 tagline: Supporting tagline

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 三国杀满级有感 - 人生需要感谢错误 
-categories: life
-tags: 三国杀 人生
+categories: 生活
+tags: 游戏 感悟
 keywords: 三国杀,人生
 tagline: Supporting tagline
 ---
 没想到这个曾经让我痴迷疯狂的额游戏最后只能通过砸铜钱来长经验了，在经过前端时间的"折磨"后，我的三国杀终于升到了150级。
 
-<img src="/assets/pictures/life/Sanguosha-Full-Level.png" align="left" />
+<img src="/public/img/life/Sanguosha-Full-Level.png" align="left" />
 
 我现在已经不能通过这个游戏找到任何的快乐了，只有机械的操作，自己伙的人出错了牌也不会生气。是时候告别这个游戏了！
 

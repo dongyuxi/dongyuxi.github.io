@@ -1,15 +1,40 @@
+permalink: /:year-:month-:day/:title.html
+paginate_path: page/:num
 markdown: kramdown
 highlighter: pygments
-permalink: /:categories/:year-:month-:day/:title.html
-paginate_path: page/:num
 
 blog:
-    name : Simple Blog
-    description : 温暖岁月,惊艳时光
-    title : Simple Blog - 董玉玺的个人博客
-    url : http://dongyuxi.github.io
+    name: Simple Blog
+    description: 温暖岁月,惊艳时光
+    title: Simple Blog - 董玉玺的个人博客
+    url: http://dongyuxi.github.io
 author:
-    name : 董玉玺
-    email : orange2010road@gmail.com
-    weibo : http://weibo.com/orange2010road
-    github : https://github.com/dongyuxi
+    name: 董玉玺
+    email: dongyuxi2004@163.com
+    weibo: http://weibo.com/orange2010road
+    github: https://github.com/dongyuxi
+    link: http://dongyuxi.github.io
+    music: http://www.douban.com/people/dongyuxi
+    linkedin: http://www.linkedin.com/in/dongyuxi
+
+# gavatar头像及Favicon
+gavatar: /public/img/gavatar.jpg
+favicon: /public/img/logo.ico
+
+# google analytics 设置
+ga:
+  id: UA-54051493-1 
+
+# disqus 设置
+disqus:
+  shortname: dongyuxi
+
+# 主题设置，自动激活某个标签
+active: 刷题
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
