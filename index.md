@@ -31,21 +31,21 @@ _I Love You._
 
 <hr>
 <a href="{{ site.author.linkedin }}">
-  <i class="fa fa-linkedin fa-lg" style="color:#16a095;"></i>
+  <i class="fa fa-linkedin fa-lg" style="color:#428bca;"></i>
 </a>
 <a href="{{ site.author.weibo }}" target="_blank">
-  <i class="fa fa-weibo fa-lg" style="color:#16a095;"></i>
+  <i class="fa fa-weibo fa-lg" style="color:#428bca;"></i>
 </a>
 <a href="{{ site.author.github }}" target="_blank">
-  <i class="fa fa-github fa-lg" style="color:#16a095;"></i>
+  <i class="fa fa-github fa-lg" style="color:#428bca;"></i>
 </a>
 <a href="/pages/atom.xml" target="_blank">
-  <i class="fa fa-rss fa-lg" style="color:#16a095;"></i>
+  <i class="fa fa-rss fa-lg" style="color:#428bca;"></i>
 </a>
 <a href="mailto:{{ site.author.email }}">
-  <i class="fa fa-envelope-o fa-lg" style="color:#16a095;"></i>
+  <i class="fa fa-envelope-o fa-lg" style="color:#428bca;"></i>
 </a>
 <a href="{{ site.author.music }}">
-  <i class="fa fa-music fa-lg" style="color:#16a095;"></i>
+  <i class="fa fa-music fa-lg" style="color:#428bca;"></i>
 </a>
 <hr>
