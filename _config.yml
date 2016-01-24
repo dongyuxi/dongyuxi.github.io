@@ -1,40 +1,75 @@
-permalink: /:year-:month-:day/:title.html
-paginate_path: page/:num
-markdown: kramdown
-highlighter: pygments
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
 
-blog:
-    name: Simple Blog
-    description: 温暖岁月,惊艳时光
-    title: Simple Blog - 董玉玺的个人博客
-    url: http://dongyuxi.github.io
-author:
-    name: 董玉玺
-    email: dongyuxi2004@163.com
-    weibo: http://weibo.com/orange2010road
-    github: https://github.com/dongyuxi
-    link: http://dongyuxi.github.io
-    music: http://www.douban.com/people/dongyuxi
-    linkedin: http://www.linkedin.com/in/dongyuxi
+# Site
+title: Yuxi Top Blog - 董玉玺的个人博客
+subtitle: 温暖岁月，惊艳时光
+description:
+author: Dong Yuxi
+language:
+timezone:
 
-# gavatar头像及Favicon
-gavatar: /public/img/gavatar.jpg
-favicon: /public/img/logo.ico
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://dongyuxi.top
+root: /
+permalink: :year-:month-:day/:title.html
+permalink_defaults:
 
-# google analytics 设置
-ga:
-  id: UA-54051493-1 
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
 
-# disqus 设置
-disqus:
-  shortname: dongyuxi
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
 
-# 主题设置，自动激活某个标签
-active: 刷题
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
 
-# 中文本地化
-locals:
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 50
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: yelee
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type:
+
+# Sitemap
+sitemap:
+    path: sitemap.xml

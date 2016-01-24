@@ -1,0 +1,43 @@
+---
+layout: post
+title: LeetCode 082 - Remove Duplicates from Sorted List II - 题解/Solution 
+categories: 刷题
+tags: [leetcode,java]
+keywords: leetcode,java,solution,题解,解题报告
+date: 2015-02-15
+permalink: problem082-remove-duplicates-from-sorted-list-ii
+---
+***<https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/>***
+<!--more-->
+```java
+/**
+ * Given a linked list, determine if it has a cycle in it.
+ * 
+ * Follow up: Can you solve it without using extra space?
+ * 
+ * @author dongyuxi
+ *
+ */
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (null == head || null == head.next) {
+            return false;
+        }
+
+        ListNode stepOneHead = head.next;
+        ListNode stepTwoHead = head.next.next;
+        while (null != stepOneHead && null != stepTwoHead) {
+            if (stepOneHead == stepTwoHead) {
+                return true;
+            }
+            stepOneHead = stepOneHead.next;
+            if (null == stepTwoHead.next) {
+                return false;
+            }
+            stepTwoHead = stepTwoHead.next.next;
+        }
+
+        return false;
+    }
+}
+```
