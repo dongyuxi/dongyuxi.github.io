@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 欢迎来到董玉玺的博客
+title: 欢迎光临
 index: true
 keywords: 个人主页
 tagline: Supporting tagline
