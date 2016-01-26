@@ -68,9 +68,12 @@ theme: yelee
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: git@github.com:dongyuxi/dongyuxi.github.io.git
+- type: git
+  repo: git@github.com:dongyuxi/dongyuxi.github.io.git
   branch: master
+- type: git
+  repo: git@gitcafe.com:dongyuxi/dongyuxi.git
+  branch: gitcafe-pages
 
 # Sitemap
 sitemap:

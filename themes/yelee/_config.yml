@@ -151,6 +151,10 @@ share: true
 # Site Verification for Google and Baidu. HTML label content.
 baidu_site: 6qnlFpoofj 
 google_site: Qb-qV5b-k8r524hHtm0blQEVbYm5P6uSNCf38Z6zJUg
+so_site: 2bb73737547d527dea0fbdd3ecb3756a
+sogou_site: 2Bq9RgCdV0
+shenma_site: ed9426c8a4ab78d6047f1cba49a175ad_1453826468
+bing_site: 
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
 google_analytics: UA-54051493-1
