@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /books
+Disallow: /leetcode
+Disallow: /life
+Disallow: /movies
+Disallow: /sports
+Disallow: /technology
+Disallow: /work
+Disallow: /experience
+Disallow: /java
+Disallow: /linux
+Disallow: /mobile
+Disallow: /m
