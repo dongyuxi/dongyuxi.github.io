@@ -5,9 +5,10 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  主页: /
   时间轴: /archives/
   标签云: /tags/
+  电影迷: /movie-list/
+  读书堂: /book-list/
   关于我: /about.html
 
 # Link to your avatar | 填写头像地址
@@ -149,12 +150,12 @@ share: true
 
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
-baidu_site: 6qnlFpoofj 
+baidu_site: 6qnlFpoofj
 google_site: Qb-qV5b-k8r524hHtm0blQEVbYm5P6uSNCf38Z6zJUg
 so_site: 2bb73737547d527dea0fbdd3ecb3756a
 sogou_site: 2Bq9RgCdV0
 shenma_site: ed9426c8a4ab78d6047f1cba49a175ad_1453826468
-bing_site: 
+bing_site:
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
 google_analytics: UA-73109217-1

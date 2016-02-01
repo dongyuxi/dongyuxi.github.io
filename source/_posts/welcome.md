@@ -4,7 +4,7 @@ title: 欢迎光临
 index: true
 keywords: 个人主页
 date: 2013-07-15
-top: 1
+top: 10
 ---
 写了好久博客，好像终于在Github上找到了自己的家。
 
@@ -18,7 +18,7 @@ top: 1
 
 _Here is a short introduction_
 
-<img src="/img/photo.jpg" />
+![我的照片](/img/photo.jpg)
 
 _我叫董玉玺，出生于1988年_
 
