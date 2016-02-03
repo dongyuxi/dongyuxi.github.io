@@ -14,6 +14,8 @@ movies:
       douban_star: 5
       release_date: 2015年11月19日
       see_date: 2015年11月22日
+      location: 影院
+      version: 2D
       comment: 这是一部【那些年】和【初恋那件小事】和【假如爱有天意】的结合体，希望大陆电影人多拍点没有堕胎的青春励志片。
 top: 9
 ---
