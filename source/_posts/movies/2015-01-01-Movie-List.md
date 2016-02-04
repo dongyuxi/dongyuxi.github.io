@@ -30,9 +30,9 @@ movies:
       comment: 其实就我个人观点拍的还是可以接受的，没有那么烂，不过叫兽可以拍的更好！
     - title: 火星救援
       eng_title: The Martian
-      image: /img/movies/2015/our-times.jpg
-      douban_id: 26366465
-      imdb_id: tt4967094
+      image: /img/movies/2015/the-martian.jpg
+      douban_id: 25864085
+      imdb_id: tt3659388
       douban_star: 4
       release_date: 2015年11月19日
       see_date: 2015年12月05日
@@ -53,4 +53,7 @@ movies:
 top: 9
 ---
 
+### 老炮儿
+### 万万没想到
+### 火星救援
 ### 我的少女时代
