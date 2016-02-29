@@ -6,6 +6,17 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 罪恶之家
+      eng_title: An Inspector Calls
+      image: /img/movies/2016/an-inspector-calls.jpg
+      douban_id: 25955491
+      imdb_id: tt4271918
+      douban_star: 5
+      release_date: 2015年09月13日
+      see_date: 2016年02月28日
+      location: 床上
+      version: 2D
+      comment: 很有话剧舞台张力的台词，流畅的逻辑叙事，东西人性的剧情，非常赞。
     - title: 功夫熊猫3
       eng_title: Kung Fu Panda 3
       image: /img/movies/2016/kung-fu-panda-3.jpg
@@ -39,8 +50,10 @@ movies:
       location: 影院
       version: 2D
       comment: 搞笑的剧情，不失推理，最后小女孩的诡异笑容又留下了一个悬念，到底是否存在完美的犯罪？
+top: 9
 ---
 
+### 罪恶之家
 ### 功夫熊猫3
 ### 寻龙诀
 ### 唐人街探案
