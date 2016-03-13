@@ -1,0 +1,104 @@
+<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <%if(post.noDate != "true"){%>
+    <div class="article-meta">
+      <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+    </div>
+  <%}%>
+  <div class="article-inner">
+    <% if (theme.fancybox){ %>
+      <input type="hidden" class="isFancy" />
+    <% } %>
+    <% if (post.link || post.title){ %>
+      <header class="article-header">
+        <%- partial('post/title', {class_name: 'article-title'}) %>
+      </header>
+      <% if (!index){ %>
+      <div class="article-info article-info-post">
+        <%- partial('post/category') %>
+        <%- partial('post/tag') %>
+        <div class="clearfix"></div>
+      </div>
+      <% } %>
+    <% } %>
+
+    <div class="article-entry" itemprop="articleBody">
+        <% post.books.forEach(function(book){ %>
+            <h2><%- book.title %></h2>
+            <div class="row" align="center">
+                <div class="movie-image">
+                    <img src="<%- book.image %>" alt="<%- book.title %>" />
+                </div>
+                <div class="movie-table">
+                    <table style="float:right">
+                        <tbody>
+                            <tr>
+                                <td style="width:20%">英文名字</td>
+                                <td style="width:80%"><%- book.eng_title %></td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%">作者</td>
+                                <td style="width:80%"><%- book.author %></td>
+                            </tr>
+                            <tr>
+                                <td>出版时间</td>
+                                <td><%- book.release_date %></td>
+                            </tr>
+                            <tr>
+                                <td>看书时间</td>
+                                <td><%- book.start_date %> - <%- book.end_date %></td>
+                            </tr>
+                            <tr>
+                                <td>看书地点版本</td>
+                                <td><%- book.location %> | <%- book.version %></td>
+                            </tr>
+                            <tr>
+                                <td>相关连接</td>
+                                <td><a href="http://book.douban.com/subject/<%- book.douban_id%>/">豆瓣</a></td>
+                            </tr>
+                            <tr>
+                                <td>豆瓣评分</td>
+                                <td><%- book.douban_star %></td>
+                            </tr>
+                            <tr>
+                                <td>短评</td>
+                                <td><%- book.comment %></td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%">推荐章节</td>
+                                <td style="width:80%"><%- book.recommend %></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+
+    <% if (index){ %>
+    <div class="article-info article-info-index">
+      <%if(post.top){%>
+        <div class="article-pop-out tagcloud">
+          <a class="">置顶</a>
+        </div>
+      <% } %>
+      <%- partial('post/category') %>
+      <%- partial('post/tag') %>
+      <% if (index && (post.description || post.excerpt)){ %>
+        <p class="article-more-link">
+          <a <% if (!theme.excerpt_link){ %>class="hidden"<% } %> href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %> >></a>
+        </p>
+      <% } %>
+      <div class="clearfix"></div>
+    </div>
+    <% } %>
+  </div>
+  <% if (!index){ %>
+    <%- partial('post/nav') %>
+  <% } %>
+</article>
+<% if (!index && post.toc != false && !is_page()){ %>
+    <%- partial('_partial/toc') %>
+<% } %>
+<% if (!index && theme.share){ %>
+<%- partial('post/share') %>
+<% } %>
