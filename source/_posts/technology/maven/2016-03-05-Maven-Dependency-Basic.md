@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maven笔记 - 依赖基础
+title: Maven笔记之二：依赖基础
 categories: 技术
 tags: [maven,java]
 keywords: maven,java
@@ -30,7 +30,7 @@ permalink: Maven-Dependency-Basic
       </exclusions>
     </dependency>
   </dependencies>  
-</project> 
+</project>
 ```
 ### groupdId ###
 依赖坐标的groupId。

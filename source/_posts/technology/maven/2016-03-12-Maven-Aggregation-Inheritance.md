@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maven笔记 - 聚合与继承
+title: Maven笔记之三：聚合与继承
 categories: 技术
 tags: [maven,java]
 keywords: maven,java

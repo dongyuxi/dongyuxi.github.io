@@ -1,11 +1,22 @@
 ---
 layout: movie
-title: 2016年电影短评单 
+title: 2016年电影短评单
 categories: 电影
 tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 控方证人
+      eng_title: Witness for the Prosecution
+      image: /img/movies/2016/witness-for-the-prosecution.jpg
+      douban_id: 1296141
+      imdb_id: tt0051201
+      douban_star: 5
+      release_date: 1957年12月17日
+      see_date: 2016年03月19日
+      location: 床上
+      version: 2D
+      comment: 经典！流畅的情节，缜密的辩词，精湛的演技，意外的结局。完美！
     - title: 罪恶之家
       eng_title: An Inspector Calls
       image: /img/movies/2016/an-inspector-calls.jpg
@@ -53,6 +64,7 @@ movies:
 top: 9
 ---
 
+### 控方证人
 ### 罪恶之家
 ### 功夫熊猫3
 ### 寻龙诀
