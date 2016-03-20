@@ -43,3 +43,55 @@ tar xzf redis-3.0.7.tar.gz
 cd redis-3.0.7
 make
 ```
+### 基本命令 ###
+* 官方命令文档：http://redis.io/commands
+* RedisFans汉化文档：http://doc.redisfans.com
+
+#### 服务端启动 ####
+用brew安装的目录在/usr/local/Cellar/redis/3.0.6/bin/下面。
+```
+./redis-server
+21133:C 16 Mar 10:46:01.578 # Warning: no config file specified, using the default config. In order to specify a config file use ./redis-server /path/to/redis.conf
+21133:M 16 Mar 10:46:01.581 * Increased maximum number of open files to 10032 (it was originally set to 2560).
+                _._
+           _.-``__ ''-._
+      _.-``    `.  `_.  ''-._           Redis 3.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 21133
+  `-._    `-._  `-./  _.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |           http://redis.io
+  `-._    `-._`-.__.-'_.-'    _.-'
+ |`-._`-._    `-.__.-'    _.-'_.-'|
+ |    `-._`-._        _.-'_.-'    |
+  `-._    `-._`-.__.-'_.-'    _.-'
+      `-._    `-.__.-'    _.-'
+          `-._        _.-'
+              `-.__.-'
+
+21133:M 16 Mar 10:46:01.582 # Server started, Redis version 3.0.6
+21133:M 16 Mar 10:46:01.582 * The server is now ready to accept connections on port 6379
+21133:M 16 Mar 11:46:02.006 * 1 changes in 3600 seconds. Saving...
+21133:M 16 Mar 11:46:02.009 * Background saving started by pid 22020
+22020:C 16 Mar 11:46:02.013 * DB saved on disk
+21133:M 16 Mar 11:46:02.114 * Background saving terminated with success
+```
+#### 客户端启动 ####
+```
+./redis-cli
+```
+
+### Redis和Tair对比 ###
+* 优势：
+ * 可以动态调整过期时间
+ * 更加丰富的API，支持列表，集合，哈希等数据结构的基本操作
+ * 内部使用文档中说明的是对内部使用免费
+ * 如果列表和集合都是字符串，使用KVStore可以避免序列化的工作
+* 劣势：
+ * 如果列表和集合的元素都是需要序列化的对象，需要转成String后才能存入KVStore，带来大量的序列化和反序列化的消耗。
+
+* 综合建议：
+ * 对列表，集合和哈希等数据结构需要操作优先考虑KVStore。
+ * 对元素都是String的数据可以优先考虑KVStore。
