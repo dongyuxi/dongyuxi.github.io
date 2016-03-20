@@ -6,6 +6,17 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 过年好
+      eng_title: The New Year's Eve of Old Lee
+      image: /img/movies/2016/the-new-years-eve-of-old-lee.jpg
+      douban_id: 26698301
+      imdb_id: tt5515022
+      douban_star: 4
+      release_date: 2016年02月01日
+      see_date: 2016年03月19日
+      location: 床上
+      version: 2D
+      comment: 没有预期的那么差，所以整体感觉还是比较暖人心，但是说实话更像是一部连续剧的一个片段，总感觉前后可以有更多的故事。
     - title: 控方证人
       eng_title: Witness for the Prosecution
       image: /img/movies/2016/witness-for-the-prosecution.jpg
@@ -64,6 +75,7 @@ movies:
 top: 9
 ---
 
+### 过年好
 ### 控方证人
 ### 罪恶之家
 ### 功夫熊猫3
