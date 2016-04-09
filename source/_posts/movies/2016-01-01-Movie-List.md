@@ -6,6 +6,17 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 火锅英雄
+      eng_title: Chongqing Hot Pot
+      image: /img/movies/2016/chongqing-hot-pot.jpg
+      douban_id: 25662327
+      imdb_id: tt5596352
+      douban_star: 4
+      release_date: 2016年04月01日
+      see_date: 2016年04月09日
+      location: 影院
+      version: 2D
+      comment: 黑色幽默，整体还不错，就是感觉女主存在感低了些，反派最好也能找个水平相当的来演。
     - title: 过年好
       eng_title: The New Year's Eve of Old Lee
       image: /img/movies/2016/the-new-years-eve-of-old-lee.jpg
