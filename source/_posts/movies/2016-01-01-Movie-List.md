@@ -6,6 +6,17 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 奇幻森林
+      eng_title: The Jungle Book
+      image: /img/movies/2016/the-jungle-book.jpg
+      douban_id: 25777636
+      imdb_id: tt3040964
+      douban_star: 5
+      release_date: 2016年04月15日
+      see_date: 2016年04月16日
+      location: 影院
+      version: 3D
+      comment: 一个有年代感的动画片，效果真是不错，剧情励志感人，歌曲恰当到位，推荐。小孩，熊，Red Flower。
     - title: 火锅英雄
       eng_title: Chongqing Hot Pot
       image: /img/movies/2016/chongqing-hot-pot.jpg
