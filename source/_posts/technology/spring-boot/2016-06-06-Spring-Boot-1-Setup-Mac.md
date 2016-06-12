@@ -4,8 +4,8 @@ title: Spring-Boot学习笔记之一：简介、Hello World配置和运行(Mac)
 categories: 技术
 tags: [spring-boot,mac]
 keywords: spring-boot,mac,setup
-date: 2016-06-16
-permalink: Spring-Boot-Setup-Mac
+date: 2016-06-06
+permalink: Spring-Boot-1-Setup-Mac
 ---
 ### Spring-Boot简介 ###
 [spring-boot](http://projects.spring.io/spring-boot/)帮助开发人员省略了spring的大量配置（很多是重复的），可以快速开发微服务。

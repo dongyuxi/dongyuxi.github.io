@@ -3,7 +3,7 @@ layout: post
 title: Java使用split("|")分割竖线的问题
 categories: 技术
 tags: [java]
-keywords: mysql,date,命令,参数
+keywords: java,split,命令,参数
 date: 2014-10-27
 permalink: java-split
 ---
