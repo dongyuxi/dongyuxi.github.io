@@ -33,6 +33,10 @@
           <% } %>
         <%- post.content %>
       <% } %>
+      <% if (!index){ %>
+        <hr>
+        <%- partial('post/pay') %>
+      <% } %>
     </div>
     <% if (index){ %>
     <div class="article-info article-info-index">
