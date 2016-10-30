@@ -6,6 +6,160 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 湄公河行动
+      eng_title: Operation Mekong
+      image: /img/movies/2016/operation-mekong.jpg
+      douban_id: 25815034
+      imdb_id: tt6044910
+      douban_star: 5
+      release_date: 2016年09月30日
+      see_date: 2016年10月16日
+      location: 影院
+      version: 2D
+      comment: 整部片子弥漫着残酷2个字，真实情况应该比电影中更加血腥和残忍。
+    - title: 樱桃小丸子 - 来自意大利的少年
+      eng_title: Chibi Maruko-chan - The Boy from Italy
+      image: /img/movies/2016/the-boy-from-italy.jpg
+      douban_id: 26469862
+      imdb_id: tt5462882
+      douban_star: 4
+      release_date: 2016年09月23日
+      see_date: 2016年09月25日
+      location: 影院
+      version: 2D
+      comment: 故事简单的要死，但是看了还是让人很放松。
+    - title: 追凶者也
+      eng_title: Cock and Bull
+      image: /img/movies/2016/cock-and-bull.jpg
+      douban_id: 26284621
+      imdb_id: tt6067462
+      douban_star: 4
+      release_date: 2016年09月14日
+      see_date: 2016年09月18日
+      location: 影院
+      version: 2D
+      comment: 黑色幽默的案件，演技都不错，差了一个让人最深刻的情节。
+    - title: 七月与安生
+      eng_title: SoulMate
+      image: /img/movies/2016/soulmate.jpg
+      douban_id: 25827935
+      imdb_id: tt6054290
+      douban_star: 5
+      release_date: 2016年09月14日
+      see_date: 2016年09月17日
+      location: 影院
+      version: 2D
+      comment: 二位女主真的是演技爆发了，双主入围金马奖，各种反转情节，我活成了你的样子。
+    - title: 谍影重重5
+      eng_title: Jason Bourne
+      image: /img/movies/2016/jason-bourne.jpg
+      douban_id: 26266072
+      imdb_id: tt4196776
+      douban_star: 4
+      release_date: 2016年09月14日
+      see_date: 2016年09月11日
+      location: 影院
+      version: 2D
+      comment: 整体不错，但是不免有些重复。
+    - title: 星际迷航3 - 超越星辰
+      eng_title: Star Trek Beyond
+      image: /img/movies/2016/star-trek-beyond.jpg
+      douban_id: 22939161
+      imdb_id: tt2660888
+      douban_star: 3
+      release_date: 2016年09月02日
+      see_date: 2016年09月04日
+      location: 影院
+      version: 2D
+      comment: 还是有点不适合这种类型的电影......记得看睡着了。
+    - title: 使徒行者
+      eng_title: Line Walker
+      image: /img/movies/2016/line-walker.jpg
+      douban_id: 26336253
+      imdb_id: tt5896962
+      douban_star: 4
+      release_date: 2016年08月11日
+      see_date: 2016年08月13日
+      location: 影院
+      version: 2D
+      comment: 可能是电视剧评分太高，期望也太高，整体不错，但是换了演员导致没有当时的感觉，最喜欢欢喜哥。
+    - title: 快手枪手快枪手
+      eng_title: For A Few Bullets
+      image: /img/movies/2016/for-a-few-bullets.jpg
+      douban_id: 26219893
+      imdb_id: tt5882704
+      douban_star: 4
+      release_date: 2016年07月15日
+      see_date: 2016年07月17日
+      location: 影院
+      version: 2D
+      comment: 情节略显荒诞，不过腾格尔和林更新还是给了很大惊喜。
+    - title: 惊天大逆转
+      eng_title: Tik Tok
+      image: /img/movies/2016/tik-tok.jpg
+      douban_id: 26375609
+      imdb_id: tt6033150
+      douban_star: 4
+      release_date: 2016年07月15日
+      see_date: 2016年07月16日
+      location: 影院
+      version: 2D
+      comment: 李政宰在当时的【新世界】就非常喜欢，演技都很好，就是还是简单了点。
+    - title: 陆垚知马俐
+      eng_title: When Larry Met Mary
+      image: /img/movies/2016/when-larry-met-mary.jpg
+      douban_id: 25849006
+      imdb_id: tt5562066
+      douban_star: 3
+      release_date: 2016年07月15日
+      see_date: 2016年07月16日
+      location: 影院
+      version: 2D
+      comment: 有点完全记不起来情节了，包贝尔前几年攒下来的口碑在慢慢消耗？
+    - title: 发条城市
+      eng_title: Foolish Plans
+      image: /img/movies/2016/foolish-plans.jpg
+      douban_id: 26695145
+      imdb_id:
+      douban_star: 4
+      release_date: 2016年07月08日
+      see_date: 2016年07月10日
+      location: 影院
+      version: 2D
+      comment: 王宁和修睿非常像延续【废柴兄弟】的火热，但是大荧幕就是这样，王鸥表演的不错，无奈情节不太主流。
+    - title: 寒战2
+      eng_title: Cold War Ⅱ
+      image: /img/movies/2016/cold-war-ii.jpg
+      douban_id: 20505982
+      imdb_id: tt5112622
+      douban_star: 5
+      release_date: 2016年07月08日
+      see_date: 2016年07月09日
+      location: 影院
+      version: 3D
+      comment: 这一部梁家辉的演技再一次被印证，亦正亦邪，当前还是不太明朗，期待第三部。
+    - title: X战警 - 天启
+      eng_title: X-Men - Apocalypse
+      image: /img/movies/2016/x-men-apocalypse.jpg
+      douban_id: 25786060
+      imdb_id: tt3385516
+      douban_star: 4
+      release_date: 2016年06月03日
+      see_date: 2016年06月04日
+      location: 影院
+      version: 3D
+      comment: 各类超能力看着很酷炫，情节再加强点就好了
+    - title: 魔兽
+      eng_title: Warcraft
+      image: /img/movies/2016/warcraft.jpg
+      douban_id: 2131940
+      imdb_id: tt0803096
+      douban_star: 4
+      release_date: 2016年06月08日
+      see_date: 2016年06月11日
+      location: 影院
+      version: 3D
+      comment: 整个故事好长，可能是当时没有玩游戏的原因没有那么强烈的情感，期待LOL出电影。
     - title: 奇幻森林
       eng_title: The Jungle Book
       image: /img/movies/2016/the-jungle-book.jpg
@@ -97,6 +251,20 @@ movies:
 top: 9
 ---
 
+### 湄公河行动
+### 樱桃小丸子：来自意大利的少年
+### 追凶者也
+### 七月与安生
+### 谍影重重5
+### 星际迷航3：超越星辰
+### 使徒行者
+### 快手枪手快枪手
+### 惊天大逆转
+### 陆垚知马俐
+### 发条城市
+### 寒战2
+### X战警：天启
+### 魔兽
 ### 奇幻森林
 ### 火锅英雄
 ### 过年好
