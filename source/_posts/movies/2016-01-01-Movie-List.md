@@ -6,6 +6,17 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 驴得水
+      eng_title: Mr. Donkey
+      image: /img/movies/2016/mr-donkey.jpg
+      douban_id: 25921812
+      imdb_id: tt6167014
+      douban_star: 5
+      release_date: 2016年10月28日
+      see_date: 2016年10月29日
+      location: 影院
+      version: 2D
+      comment: 一部前半部分是喜剧，后半部分让人绝望的话剧作品，每个人物都有非常鲜明的特点，贪婪，放纵，这就是人性？
     - title: 湄公河行动
       eng_title: Operation Mekong
       image: /img/movies/2016/operation-mekong.jpg
@@ -251,6 +262,7 @@ movies:
 top: 9
 ---
 
+### 驴德水
 ### 湄公河行动
 ### 樱桃小丸子：来自意大利的少年
 ### 追凶者也
