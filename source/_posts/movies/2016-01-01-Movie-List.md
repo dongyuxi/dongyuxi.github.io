@@ -6,6 +6,28 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 比利·林恩的中场战事
+      eng_title: Billy Lynn's Long Halftime Walk
+      image: /img/movies/2016/billy-lynn-long-halftime-walk.jpg
+      douban_id: 25983044
+      imdb_id: tt2513074
+      douban_star: 4
+      release_date: 2016年11月11日
+      see_date: 2016年11月13日
+      location: 影院
+      version: 3D
+      comment: 每个人理解的战争都不一样，虽然没有去看120帧的大电影，但是整个故事还是值得一看的，李安导演讲故事的能力还是非常流畅的。
+    - title: 奇异博士
+      eng_title: Doctor Strange
+      image: /img/movies/2016/doctor-strange.jpg
+      douban_id: 3025375
+      imdb_id: tt1211837
+      douban_star: 3
+      release_date: 2016年11月04日
+      see_date: 2016年11月06日
+      location: 影院
+      version: 3D
+      comment: 看的我好困啊，漫威电影今后尝试的时候要稳住，对我来说容易睡着......
     - title: 驴得水
       eng_title: Mr. Donkey
       image: /img/movies/2016/mr-donkey.jpg
@@ -262,9 +284,13 @@ movies:
 top: 9
 ---
 
+### 比利·林恩的中场战事
+### 奇异博士
 ### 驴德水
 ### 湄公河行动
 ### 樱桃小丸子：来自意大利的少年
+<!--more-->
+
 ### 追凶者也
 ### 七月与安生
 ### 谍影重重5

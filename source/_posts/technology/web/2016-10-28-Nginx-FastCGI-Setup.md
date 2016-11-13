@@ -8,6 +8,7 @@ date: 2016-10-28
 permalink: Nginx-FastCGI-Setup
 ---
 
+[Nginx](http://nginx.org/en/) [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
 <!--more-->
 
 ### 安装 ###
