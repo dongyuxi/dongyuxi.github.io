@@ -6,6 +6,39 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 从你的全世界路过
+      eng_title: I Belonged to You
+      image: /img/movies/2016/i-belonged-to-you.jpg
+      douban_id: 26280528
+      imdb_id: tt6074202
+      douban_star: 3
+      release_date: 2016年09月29日
+      see_date: 2016年11月27日
+      location: 家里
+      version: 2D（DVD）
+      comment: 感觉电影太随意了，几乎都没有发挥自己的演技，很可惜，小说本来是畅销书，没拍好。
+    - title: 神奇动物在哪里
+      eng_title: Fantastic Beasts and Where to Find Them
+      image: /img/movies/2016/fantastic-beasts-and-where-to-find-them.jpg
+      douban_id: 25726614 
+      imdb_id: tt3183660
+      douban_star: 4
+      release_date: 2016年11月25日
+      see_date: 2016年11月27日
+      location: 影院
+      version: 3D
+      comment: 很明显这又是一部不太适合我的电影，因为看的不是觉得特别有意思，只是感觉特效不错，剧情不是特别拖沓，还好我没有睡着。
+    - title: 我不是潘金莲
+      eng_title: I Am Not Madame Bovary
+      image: /img/movies/2016/i-am-not-mad.jpg
+      douban_id: 26630781
+      imdb_id: tt5918090
+      douban_star: 4
+      release_date: 2016年11月18日
+      see_date: 2016年11月20日
+      location: 影院
+      version: 2D
+      comment: 整个故事其实还是比较有意思的，但是范冰冰的演技确实被配角完爆了，如果冯导不和万达撕的话也许票房会更好。  
     - title: 比利·林恩的中场战事
       eng_title: Billy Lynn's Long Halftime Walk
       image: /img/movies/2016/billy-lynn-long-halftime-walk.jpg
