@@ -6,6 +6,17 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 你的名字
+      eng_title: Your Name
+      image: /img/movies/2016/your-name.jpg
+      douban_id: 26683290
+      imdb_id: tt5311514
+      douban_star: 5
+      release_date: 2016年08月26日
+      see_date: 2016年12月04日
+      location: 影院
+      version: 2D
+      comment: 剧情、画面、音乐和立意都很完美。
     - title: 从你的全世界路过
       eng_title: I Belonged to You
       image: /img/movies/2016/i-belonged-to-you.jpg
@@ -317,13 +328,14 @@ movies:
 top: 9
 ---
 
+### 你的名字
 ### 从你的全世界路过
 ### 神奇动物在哪里
 ### 我不是潘金莲
 ### 比利·林恩的中场战事
-### 奇异博士
 <!--more-->
 
+### 奇异博士
 ### 驴德水
 ### 湄公河行动
 ### 樱桃小丸子：来自意大利的少年
