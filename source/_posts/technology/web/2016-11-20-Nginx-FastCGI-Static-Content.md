@@ -29,7 +29,7 @@ http {
     ......
 }
 ```
-当访问http://localhost:80或者http://localhost(80是默认端口)访问的就是默认的index.html页面。
+当访问http://localhost:80 或者http://localhost (80是默认端口)访问的就是默认的index.html页面。
 
 ### 添加静态内容配置 ###
 #### 直接配置内容 ####
@@ -39,7 +39,7 @@ http {
             return 200 "static_content_1";
         }
 ```
-此时访问http://localhost/static_1就会得到"static_content_1"。
+此时访问http://localhost/static_1 就会得到"static_content_1"。
 #### 使用静态页面配置
 和默认根目录访问类似，配置相应的index.html文件即可：
 ```
@@ -49,7 +49,7 @@ http {
         }
 ```
 同时在/home/dongyuxi/workplace/nginx-content文件夹下面建立static_2/index.html文件，内容为static_content_2,。
-此时访问http://localhost/static_2就会得到"static_content_2"。
+此时访问http://localhost/static_2 就会得到"static_content_2"。
 ### 备注 ###
 #### 修改配置生效 ####
 ```
