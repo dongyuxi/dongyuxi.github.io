@@ -6,6 +6,28 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 血战钢锯岭
+      eng_title: Hacksaw Ridge
+      image: /img/movies/2016/hacksaw-ridge.jpg
+      douban_id: 26325320
+      imdb_id: tt2119532
+      douban_star: 5
+      release_date: 2016年12月08日
+      see_date: 2016年12月18日
+      location: 影院
+      version: 2D
+      comment: 不得不说这是我看过的最好的战争片，虽然我也没看过几部，真人真事，最后向下运输人的片段还是很不错的，最可贵的是人最后还活着！
+    - title: 罗曼蒂克消亡史
+      eng_title: The Wasted Times
+      image: /img/movies/2016/the-wasted-times.jpg
+      douban_id: 24751763
+      imdb_id: tt4623812
+      douban_star: 3
+      release_date: 2016年12月16日
+      see_date: 2016年12月17日
+      location: 影院
+      version: 2D
+      comment: 这部片子说实话没太看懂，后来看了影评才发现还是挺有意思的，脸盲症在这部电影里面真是展现了弊端，好几个演员都没看出来。
     - title: 你的名字
       eng_title: Your Name
       image: /img/movies/2016/your-name.jpg
