@@ -6,6 +6,28 @@ tags: [影评]
 date: 2017-01-01
 permalink: Movie-List
 movies:
+    - title: 吃吃的爱
+      eng_title: Didi's Dream
+      image: /img/movies/2017/didi-dream.jpg
+      douban_id: 26279202
+      imdb_id: tt6912580
+      douban_star: 3
+      release_date: 2017年05月05日
+      see_date: 2017年05月07日
+      location: 影院
+      version: 2D
+      comment: 前半段很有意思，康熙来了之后的艺人们都出来露个脸，但是后面是在拖沓。
+    - title: 加勒比海盗5
+      eng_title: Dead Men Tell No Tales
+      image: /img/movies/2017/dead-men-tell-no-tales.jpg
+      douban_id: 6311303
+      imdb_id: tt1790809
+      douban_star: 4
+      release_date: 2017年05月26日
+      see_date: 2017年05月28日
+      location: 影院
+      version: 3D
+      comment: 电影情节比较吸引人，但是后半段略显套路。
     - title: 摔跤吧爸爸
       eng_title: Wrestling Competition
       image: /img/movies/2017/wrestling-competition.jpg
