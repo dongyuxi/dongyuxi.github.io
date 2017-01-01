@@ -6,6 +6,39 @@ tags: [影评]
 date: 2016-01-01
 permalink: Movie-List
 movies:
+    - title: 那年夏天你去了哪里
+      eng_title: Cherry Returns
+      image: /img/movies/2016/cherry-returns.jpg
+      douban_id: 26876595
+      imdb_id: 
+      douban_star: 3
+      release_date: 2016年12月30日
+      see_date: 2016年12月31日
+      location: 影院
+      version: 2D
+      comment: 没想到把2016年的最后一部电影献给了这部在IMDB上没有评分的，胡歌不是很挑戏吗？为啥接了这部？整体还是标准的国产悬疑电影的规则，故弄玄虚，没什么真的推理......
+    - title: 情圣
+      eng_title: Hacksaw Ridge
+      image: /img/movies/2016/hacksaw-ridge.jpg
+      douban_id: 26325320
+      imdb_id: tt2119532
+      douban_star: 4
+      release_date: 2016年12月30日
+      see_date: 2016年12月31日
+      location: 影院
+      version: 2D
+      comment: 片子整体几个小故事还是比较搞笑的，但是有的地方衔接的不太好，而且有几个段子有点含蓄......
+      - title: 长城
+      eng_title: The Great Wall
+      image: /img/movies/2016/the-great-wall.jpg
+      douban_id: 6982558
+      imdb_id: tt2034800
+      douban_star: 4
+      release_date: 2016年12月16日
+      see_date: 2016年12月31日
+      location: 影院
+      version: 3D
+      comment: 没有想象的那么差，而且感觉还有点意思，几个大场面还是张艺谋的擅长，各个演技大咖给景甜配角也是甘心奉献。
     - title: 血战钢锯岭
       eng_title: Hacksaw Ridge
       image: /img/movies/2016/hacksaw-ridge.jpg
@@ -350,13 +383,17 @@ movies:
 top: 9
 ---
 
+### 那年夏天你去了哪里
+### 情圣
+### 长城
+### 血战钢锯岭
+### 罗曼蒂克消亡史
+<!--more-->
 ### 你的名字
 ### 从你的全世界路过
 ### 神奇动物在哪里
 ### 我不是潘金莲
 ### 比利·林恩的中场战事
-<!--more-->
-
 ### 奇异博士
 ### 驴德水
 ### 湄公河行动
