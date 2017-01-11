@@ -18,8 +18,8 @@ movies:
       version: 2D
       comment: 没想到把2016年的最后一部电影献给了这部在IMDB上没有评分的，胡歌不是很挑戏吗？为啥接了这部？整体还是标准的国产悬疑电影的规则，故弄玄虚，没什么真的推理......
     - title: 情圣
-      eng_title: Hacksaw Ridge
-      image: /img/movies/2016/hacksaw-ridge.jpg
+      eng_title: Some Like It Hot
+      image: /img/movies/2016/some-like-it-hot.jpg
       douban_id: 26325320
       imdb_id: tt2119532
       douban_star: 4
@@ -28,7 +28,7 @@ movies:
       location: 影院
       version: 2D
       comment: 片子整体几个小故事还是比较搞笑的，但是有的地方衔接的不太好，而且有几个段子有点含蓄......
-      - title: 长城
+    - title: 长城
       eng_title: The Great Wall
       image: /img/movies/2016/the-great-wall.jpg
       douban_id: 6982558
