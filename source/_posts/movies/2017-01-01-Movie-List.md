@@ -6,6 +6,28 @@ tags: [影评]
 date: 2017-01-01
 permalink: Movie-List
 movies:
+    - title: 最终幻想15 王者之剑
+      eng_title: Kingsglaive Final Fantasy XV
+      image: /img/movies/2017/kingsglaive.jpg
+      douban_id: 26762709
+      imdb_id: tt5595168
+      douban_star: 3
+      release_date: 2017年03月10日
+      see_date: 2017年03月11日
+      location: 影院
+      version: 2D
+      comment: 终于在电影院看了一遍游戏的CG动画合辑。
+    - title: 一条狗的使命
+      eng_title: A Dog's Purpose
+      image: /img/movies/2017/a-dogs-purpose.jpg
+      douban_id: 6873143
+      imdb_id: tt1753383
+      douban_star: 4
+      release_date: 2017年03月03日
+      see_date: 2017年03月05日
+      location: 影院
+      version: 2D
+      comment: 一个非常温情的故事，留给那些相信奇迹的人们，但是我并不是特别喜欢狗。 
     - title: 金刚狼3 殊死一战
       eng_title: Logan
       image: /img/movies/2017/logan.jpg
