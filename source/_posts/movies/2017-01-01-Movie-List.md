@@ -6,6 +6,28 @@ tags: [影评]
 date: 2017-01-01
 permalink: Movie-List
 movies:
+    - title: 非凡任务
+      eng_title: Extraordinary Mission
+      image: /img/movies/2017/extraordinary-mission.jpg
+      douban_id: 26616690
+      imdb_id: tt6690310
+      douban_star: 4
+      release_date: 2017年03月31日
+      see_date: 2017年04月03日
+      location: 影院
+      version: 2D
+      comment: 故事还算不错，这几个男人演技都在线，就是总感觉还差点意思。
+    - title: 嫌疑人X的献身
+      eng_title: Suspect X
+      image: /img/movies/2017/suspect-x.jpg
+      douban_id: 26606743
+      imdb_id: tt5516464
+      douban_star: 4
+      release_date: 2017年03月31日
+      see_date: 2017年04月03日
+      location: 影院
+      version: 2D
+      comment: 张鲁一演技真的不错，王凯需要加油，整个故事改编的还算可以，就是X的心理变化不太好表达出来。
     - title: 最终幻想15 王者之剑
       eng_title: Kingsglaive Final Fantasy XV
       image: /img/movies/2017/kingsglaive.jpg
