@@ -6,6 +6,39 @@ tags: [影评]
 date: 2017-01-01
 permalink: Movie-List
 movies:
+    - title: 摔跤吧爸爸
+      eng_title: Wrestling Competition
+      image: /img/movies/2017/wrestling-competition.jpg
+      douban_id: 26387939
+      imdb_id: tt5074352
+      douban_star: 5
+      release_date: 2017年05月05日
+      see_date: 2017年05月07日
+      location: 影院
+      version: 2D
+      comment: 电影整体节奏非常好，情节完整，题材寓意都很有高度，不知道这种片子在中国能不能过审。
+    - title: 记忆大师
+      eng_title: Battle of Memories
+      image: /img/movies/2017/battle-of-memories.jpg
+      douban_id: 25884801
+      imdb_id: tt5636668
+      douban_star: 4
+      release_date: 2017年04月28日
+      see_date: 2017年04月29日
+      location: 影院
+      version: 2D
+      comment: 演技首先都没的说，剧情的话稍显"为了反转而反转"，有点刻意让观众猜不到。
+    - title: 速度与激情8
+      eng_title: The Fate of the Furious
+      image: /img/movies/2017/the-fate-of-the-furious.jpg
+      douban_id: 26260853
+      imdb_id: tt4630562
+      douban_star: 4
+      release_date: 2017年04月14日
+      see_date: 2017年04月16日
+      location: 影院
+      version: 2D
+      comment: 就是干，没毛病，郭达表现太抢眼。
     - title: 非凡任务
       eng_title: Extraordinary Mission
       image: /img/movies/2017/extraordinary-mission.jpg
