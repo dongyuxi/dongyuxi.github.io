@@ -6,6 +6,83 @@ tags: [影评]
 date: 2017-01-01
 permalink: Movie-List
 movies:
+    - title: 寻梦环游记
+      eng_title: Coco
+      image: /img/movies/2017/coco.jpg
+      douban_id: 20495023
+      imdb_id: tt2380307
+      douban_star: 5
+      release_date: 2017年11月24日
+      see_date: 2017年11月25日
+      location: 影院
+      version: 3D
+      comment: 一个关于梦想、家庭、被判和信念的故事，最后一首Remember Me更是泪流满面
+    - title: 暴雪将至
+      eng_title: The Looming Storm
+      image: /img/movies/2017/the-looming-storm.jpg
+      douban_id: 26775933
+      imdb_id: tt7649320
+      douban_star: 4
+      release_date: 2017年11月17日
+      see_date: 2017年11月19日
+      location: 影院
+      version: 2D
+      comment: 老段靠一个并不太完整的故事拿下了影帝，想表达的时代含义太多了
+    - title: 天才枪手
+      eng_title: Bad Genius
+      image: /img/movies/2017/bad-genius.jpg
+      douban_id: 27024903
+      imdb_id: tt6788942
+      douban_star: 4
+      release_date: 2017年10月13日
+      see_date: 2017年10月15日
+      location: 影院
+      version: 2D
+      comment: 2个天才，2条路线，谁能真正做到处变不惊？
+    - title: 缝纫机乐队
+      eng_title: City of Rock
+      image: /img/movies/2017/city-of-rock.jpg
+      douban_id: 26926321
+      imdb_id: tt7339584
+      douban_star: 4
+      release_date: 2017年09月29日
+      see_date: 2017年10月08日
+      location: 影院
+      version: 2D
+      comment: 并没有评价的那么不堪，总体来讲还是比较对我的口味~大鹏这个人好喜欢梦想
+    - title: 羞羞的铁拳
+      eng_title: Never Say Die
+      image: /img/movies/2017/never-say-die.jpg
+      douban_id: 27038183
+      imdb_id: tt7431894
+      douban_star: 4
+      release_date: 2017年09月30日
+      see_date: 2017年09月30日
+      location: 影院
+      version: 2D
+      comment: 上映当天去看的，一般去看的也是因为《夏洛特烦恼》和《驴得水》，总的来说没有那么出彩，但是也很不错
+    - title: 十万个冷笑话2
+      eng_title: One Hundred Thousand Bad Jokes II
+      image: /img/movies/2017/one-hundred-thousand-bad-jokes-ii.jpg
+      douban_id: 26759539
+      imdb_id: tt7490280
+      douban_star: 4
+      release_date: 2017年08月18日
+      see_date: 2017年08月19日
+      location: 影院
+      version: 2D
+      comment: 新梗很多，故事我也是没想到这么多人物串起来，笑点还是符合我的路子
+    - title: 心理罪
+      eng_title: Guilty of Mind
+      image: /img/movies/2017/guilty-of-mind.jpg
+      douban_id: 26698000
+      imdb_id: tt7232860
+      douban_star: 2
+      release_date: 2017年08月11日
+      see_date: 2017年08月13日
+      location: 影院
+      version: 2D
+      comment: 糟糕的演技糟蹋了整个故事，要是没看过小说没看过网剧版还好
     - title: 吃吃的爱
       eng_title: Didi's Dream
       image: /img/movies/2017/didi-dream.jpg
