@@ -4,6 +4,7 @@ index: true
 date: 2017-01-01
 ---
 
+## [2018年电影短评单](/2018-01-01/Movie-List.html)
 ## [2017年电影短评单](/2017-01-01/Movie-List.html)
 ## [2016年电影短评单](/2016-01-01/Movie-List.html)
 ## [2015年电影短评单](/2015-01-01/Movie-List.html)
