@@ -6,6 +6,50 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 无妄之灾
+      eng_title: Ordeal by Innocence
+      image: /img/movies/2018/ordeal-by-innocence.jpg
+      douban_id: 26886270
+      imdb_id: tt6118426
+      douban_star: 4
+      release_date: 2018年04月01日
+      see_date: 2018年04月17日
+      location: 沙发上
+      version: 2D
+      comment: 典型的阿加莎克里斯蒂的作品，每个人都有足够的杀人动机。最后一集有惊喜，但是精致中略显戏剧性不足。
+    - title: 头号玩家
+      eng_title: Ready Player One
+      image: /img/movies/2018/ready-player-one.jpg
+      douban_id: 4920389
+      imdb_id: tt1677720
+      douban_star: 5
+      release_date: 2018年03月30日
+      see_date: 2018年04月06日
+      location: 影院
+      version: 3D IMAX
+      comment: 没办法不给5星，技术+情怀，满分。
+    - title: 暴裂无声
+      eng_title: Villain
+      image: /img/movies/2018/villain.jpg
+      douban_id: 26647117
+      imdb_id: tt6389316
+      douban_star: 5
+      release_date: 2018年04月04日
+      see_date: 2018年04月05日
+      location: 影院
+      version: 2D
+      comment: 比导演上一部作品《心迷宫》表达了更多的社会层次，尤其是底层人民就像是男主人公无法发声，同处于底层社会的同乡虽然有过过节但仍然在危难的时候伸出援手；而中层的律师则为了自己（或者家庭）的利益违背了自己的良心，最后一句“没有”代表了这类人的缩影；深处上层的老总则无时无刻不体现着残暴和金钱。而影片中的小孩子都喜欢带着奥特曼的面具，村里的人都因为挖矿导致水污染而得了病，村长喝着矿泉水抽着别人送的烟，导演要表达的很多。
+    - title: 迷雾
+      eng_title: Misty
+      image: /img/movies/2018/misty.jpg
+      douban_id: 27097811
+      imdb_id: tt7890244
+      douban_star: 4
+      release_date: 2018年02月02日
+      see_date: 2018年03月25日
+      location: 沙发上
+      version: 2D
+      comment: 如果没有最后一集，电视剧还能稳定在9分左右。整体节奏还是很不错，职场女强人，甘心付出的老公、青梅竹马，锲而不舍的警察，曾经的闺蜜，财团，社长......每个人物还都是很深入人心，虽然结局不够完美，但还是一部推荐观看的爱情电视剧。 
     - title: 一级恐惧
       eng_title: Primal Fear
       image: /img/movies/2018/primal-fear.jpg
@@ -42,6 +86,8 @@ movies:
 top: 9
 ---
 
+### 暴裂无声
+### 迷雾
 ### 一级恐惧
 ### 在下坂本，有何贵干
 ### 唐人街探案2
