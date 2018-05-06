@@ -10,7 +10,7 @@ movies:
       eng_title: A or B
       image: /img/movies/2018/a-or-b.jpg
       douban_id: 26774033
-      imdb_id: -
+      imdb_id: 26774033
       douban_star: 4
       release_date: 2018年04月28日
       see_date: 2018年04月30日
