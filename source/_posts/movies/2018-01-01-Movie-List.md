@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 幕后玩家
+      eng_title: A or B
+      image: /img/movies/2018/a-or-b.jpg
+      douban_id: 26774033
+      imdb_id: -
+      douban_star: 4
+      release_date: 2018年04月28日
+      see_date: 2018年04月30日
+      location: 电影院
+      version: 2D
+      comment: 和一般的悬疑电影有明显不同，有点像徐峥当时的《催眠大师》，也是没有IMDB的评分？
     - title: 无妄之灾
       eng_title: Ordeal by Innocence
       image: /img/movies/2018/ordeal-by-innocence.jpg
