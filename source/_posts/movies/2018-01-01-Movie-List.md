@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 女神异闻录4
+      eng_title: Persona 4
+      image: /img/movies/2018/persona-4.jpg
+      douban_id: 19966681
+      imdb_id: tt2387612
+      douban_star: 4
+      release_date: 2011年08月22日
+      see_date: 2018年06月03日
+      location: 沙发上
+      version: 2D
+      comment: 玩了P5的游戏后没办法玩P4，就看了P4的动漫，整体感觉风格还比较统一，剧情应该比P5更好一些~
+    - title: 三国机密之潜龙在渊
+      eng_title: Hidden dragon in the deep
+      image: /img/movies/2018/hidden-dragon-in-the-deep.jpg
+      douban_id: 26801742
+      imdb_id: 26801742
+      douban_star: 3
+      release_date: 2018年03月27日
+      see_date: 2018年06月27日
+      location: 沙发上
+      version: 2D
+      comment: 在史书记载的盲点进行合理的发挥，但是演员的演技真是不敢恭维，可能需要的就是这样的效果。
     - title: 幕后玩家
       eng_title: A or B
       image: /img/movies/2018/a-or-b.jpg
@@ -97,6 +119,10 @@ movies:
 top: 9
 ---
 
+### 女神异闻录4
+### 三国机密之潜龙在渊
+### 幕后玩家
+### 无妄之灾
 ### 暴裂无声
 ### 迷雾
 ### 一级恐惧
