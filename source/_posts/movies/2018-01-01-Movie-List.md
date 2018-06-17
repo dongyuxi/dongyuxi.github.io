@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 魔法少女小圆
+      eng_title: Madoka Magica
+      image: /img/movies/2018/madoka-magica.jpg
+      douban_id: 5349275
+      imdb_id: tt1773185
+      douban_star: 4
+      release_date: 2011年01月06日
+      see_date: 2018年06月13日
+      location: 班车上
+      version: 2D
+      comment: 讲了一个等价交换的故事吗？小圆和她的小伙伴们......好吧，我承认没太看懂......
+    - title: 杀不死
+      eng_title: SBS
+      image: /img/movies/2018/sbs.jpg
+      douban_id: 26772013
+      imdb_id: 26772013
+      douban_star: 5
+      release_date: 2017年06月21日
+      see_date: 2018年06月10日
+      location: 沙发上
+      version: 2D
+      comment: 冲着《毛骗》来的，没有失望，虽然剧情稍微有些拖沓，配角的演技还是比较尴尬，但整体编剧质量还是很高。
     - title: 女神异闻录4
       eng_title: Persona 4
       image: /img/movies/2018/persona-4.jpg
@@ -119,9 +141,12 @@ movies:
 top: 9
 ---
 
+### 魔法少女小圆
+### 杀不死
 ### 女神异闻录4
 ### 三国机密之潜龙在渊
 ### 幕后玩家
+<!--more-->
 ### 无妄之灾
 ### 暴裂无声
 ### 迷雾
