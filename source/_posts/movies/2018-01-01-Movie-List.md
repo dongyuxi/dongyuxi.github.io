@@ -6,6 +6,50 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 我不是药神
+      eng_title: Dying to Survive
+      image: /img/movies/2018/dying-to-survive.jpg
+      douban_id: 26752088
+      imdb_id: tt7362036
+      douban_star: 5
+      release_date: 2018年07月06日
+      see_date: 2018年07月01日
+      location: 电影院点映
+      version: 2D
+      comment: 整部电影无论从剧情展开到背后深度都让人印象非常深刻，就像韩国的《熔炉》和《辩护人》推动法律改革一样，该电影的地位不言而喻。
+    - title: 动物世界
+      eng_title: Animal World
+      image: /img/movies/2018/animal-world.jpg
+      douban_id: 26925317
+      imdb_id: tt7946836
+      douban_star: 5
+      release_date: 2018年06月29日
+      see_date: 2018年06月30日
+      location: 电影院
+      version: 3D
+      comment: 冲着《赌博默示录》来的，不得不说中国特色的改编还不错，小丑的出现也是超出预期，可以成为李易峰的代表作了吧？
+    - title: 骨语
+      eng_title: Talking Bones
+      image: /img/movies/2018/talking-bones.jpg
+      douban_id: 27119570
+      imdb_id: 27119570
+      douban_star: 3
+      release_date: 2018年05月29日
+      see_date: 2018年06月30日
+      location: 沙发上
+      version: 2D
+      comment: 高开低走，最后的案件完全没有出乎意料，中间的案件推理出现重复
+    - title: 全部成为F
+      eng_title: THE PERFECT INSIDER
+      image: /img/movies/2018/the-perfect-inspider.jpg
+      douban_id: 26271871
+      imdb_id: tt5247480
+      douban_star: 4
+      release_date: 2015年10月09日
+      see_date: 2018年06月23日
+      location: 班车上
+      version: 2D
+      comment: 不只是推理和智斗，背后的哲学讨论才是关键，但是中间有几集略显拖沓
     - title: 魔法少女小圆
       eng_title: Madoka Magica
       image: /img/movies/2018/madoka-magica.jpg
@@ -141,12 +185,16 @@ movies:
 top: 9
 ---
 
+### 我不是药神
+### 动物世界
+### 骨语
+### 全部成为F
 ### 魔法少女小圆
+<!--more-->
 ### 杀不死
 ### 女神异闻录4
 ### 三国机密之潜龙在渊
 ### 幕后玩家
-<!--more-->
 ### 无妄之灾
 ### 暴裂无声
 ### 迷雾
