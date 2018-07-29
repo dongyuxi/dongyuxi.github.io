@@ -6,6 +6,39 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 西虹市首富
+      eng_title: Hello Mr. Billionaire
+      image: /img/movies/2018/hello-mr-billionaire.jpg
+      douban_id: 27605698
+      imdb_id: tt8529186
+      douban_star: 4
+      release_date: 2018年07月27日
+      see_date: 2018年07月27日
+      location: 电影院点映
+      version: 2D
+      comment: 整体风格还是比较开心麻花，笑点也比较多，不知道为啥评分不高，开心就好
+    - title: 风语咒
+      eng_title: The Wind Guardians
+      image: /img/movies/2018/the-wind-guardians.jpg
+      douban_id: 30146756
+      imdb_id: 30146756
+      douban_star: 4
+      release_date: 2018年08月03日
+      see_date: 2018年07月22日
+      location: 电影院点映
+      version: 2D
+      comment: 武侠奇幻风格的动漫，剧情稍微有些不连贯，效果也没有明显长进，但还是看得出来很用心，情怀+1
+    - title: 邪不压正
+      eng_title: Hidden Man
+      image: /img/movies/2018/hidden-man.jpg
+      douban_id: 26366496
+      imdb_id: tt8434380
+      douban_star: 3
+      release_date: 2018年07月13日
+      see_date: 2018年07月15日
+      location: 电影院
+      version: 3D
+      comment: 连着两部姜文的电影没看懂了......3分给廖凡和彭于晏的肌肉
     - title: 我不是药神
       eng_title: Dying to Survive
       image: /img/movies/2018/dying-to-survive.jpg
