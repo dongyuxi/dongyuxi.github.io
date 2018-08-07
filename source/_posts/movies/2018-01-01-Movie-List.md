@@ -28,6 +28,17 @@ movies:
       location: 青岛电影院
       version: 2D
       comment: 看似温暖，实则绝望
+    - title: 猎毒人
+      eng_title: The drug hunter
+      image: /img/movies/2018/the-drug-hunter.jpg
+      douban_id: 27180959
+      imdb_id: tt8661634
+      douban_star: 4
+      release_date: 2018年07月06日
+      see_date: 2018年08月04日
+      location: 沙发上
+      version: 2D
+      comment: 我觉得演员演技没问题，剧情也还行啊，不知道为啥评分这么低？
     - title: 西虹市首富
       eng_title: Hello Mr. Billionaire
       image: /img/movies/2018/hello-mr-billionaire.jpg
