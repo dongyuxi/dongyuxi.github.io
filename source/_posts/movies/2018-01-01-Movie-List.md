@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 狄仁杰之四大天王
+      eng_title: Detective Dee: The Four Heavenly Kings
+      image: /img/movies/2018/detective-dee.jpg
+      douban_id: 25882296
+      imdb_id: tt6869538
+      douban_star: 3
+      release_date: 2018年07月27日
+      see_date: 2018年08月07日
+      location: 电影院
+      version: IMAX 3D
+      comment: 幻术和电视剧里面的表现差的太多了，不过画面确实好一些，剧情太简单了，而且最后的和尚出场无敌太尴尬了。
+    - title: 小偷家族
+      eng_title: Shoplifters
+      image: /img/movies/2018/shoplifters.jpg
+      douban_id: 27622447
+      imdb_id: tt8075192
+      douban_star: 4
+      release_date: 2018年08月03日
+      see_date: 2018年08月05日
+      location: 青岛电影院
+      version: 2D
+      comment: 看似温暖，实则绝望
     - title: 西虹市首富
       eng_title: Hello Mr. Billionaire
       image: /img/movies/2018/hello-mr-billionaire.jpg
