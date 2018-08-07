@@ -7,7 +7,7 @@ date: 2018-01-01
 permalink: Movie-List
 movies:
     - title: 狄仁杰之四大天王
-      eng_title: Detective Dee: The Four Heavenly Kings
+      eng_title: Detective Dee - The Four Heavenly Kings
       image: /img/movies/2018/detective-dee.jpg
       douban_id: 25882296
       imdb_id: tt6869538
