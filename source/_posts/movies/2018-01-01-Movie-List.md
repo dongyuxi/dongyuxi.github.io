@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 快把我哥带走
+      eng_title: Go Brother
+      image: /img/movies/2018/go-brother.jpg
+      douban_id: 30122633
+      imdb_id: tt8774260
+      douban_star: 5
+      release_date: 2018年08月17日
+      see_date: 2018年08月19日
+      location: 电影院
+      version: 2D
+      comment: 超出预期的搞笑情感片，几位小演员的演技比流量小鲜肉强太多了
+    - title: 一出好戏
+      eng_title: The Island
+      image: /img/movies/2018/the-island.jpg
+      douban_id: 26985127
+      imdb_id: tt8755316
+      douban_star: 4
+      release_date: 2018年07月27日
+      see_date: 2018年08月07日
+      location: 电影院
+      version: 2D
+      comment: 黄渤导演的处女座，电影想表达的很多，人类进化、社会规则演进还是个人的臆想，都还很有趣
     - title: 狄仁杰之四大天王
       eng_title: Detective Dee - The Four Heavenly Kings
       image: /img/movies/2018/detective-dee.jpg
