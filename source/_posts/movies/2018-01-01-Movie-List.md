@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 碟中谍6全面瓦解
+      eng_title: Mission Impossible Fallout
+      image: /img/movies/2018/mission-impossible-fallout.jpg
+      douban_id: 26336252
+      imdb_id: tt4912910
+      douban_star: 5
+      release_date: 2018年08月31日
+      see_date: 2018年09月01日
+      location: 电影院
+      version: 3D
+      comment: 冲着阿汤哥的几组危险镜头就要给满分！
+    - title: 蚁人2黄蜂女现身
+      eng_title: Ant-Man and the Wasp
+      image: /img/movies/2018/ant-man-and-the-wasp.jpg
+      douban_id: 26636712
+      imdb_id: tt5095030
+      douban_star: 4
+      release_date: 2018年08月24日
+      see_date: 2018年08月26日
+      location: 电影院
+      version: 3D
+      comment: 标准的商业片，整体看完变大变小还是比较有意思
     - title: 快把我哥带走
       eng_title: Go Brother
       image: /img/movies/2018/go-brother.jpg
