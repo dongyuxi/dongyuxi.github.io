@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 刺客伍六七
+      eng_title: Killer Seven
+      image: /img/movies/2018/killer-seven.jpg
+      douban_id: 27624762
+      imdb_id: 27624762
+      douban_star: 5
+      release_date: 2018年04月25日
+      see_date: 2018年09月09日
+      location: 跑步机
+      version: 2D
+      comment: 无意中发现的惊喜国产动漫，音乐、剧情都很不错，强烈推荐。
     - title: 碟中谍6全面瓦解
       eng_title: Mission Impossible Fallout
       image: /img/movies/2018/mission-impossible-fallout.jpg
