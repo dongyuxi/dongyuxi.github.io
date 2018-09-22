@@ -6,6 +6,39 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 江湖儿女
+      eng_title: Ash is Purest White
+      image: /img/movies/2018/ash-is-purest-white.jpg
+      douban_id: 26972258
+      imdb_id: tt7298400
+      douban_star: 4
+      release_date: 2018年09月21日
+      see_date: 2018年09月21日
+      location: 电影院
+      version: 2D
+      comment: 贾樟柯诠释的江湖，把自己的电影都串了起来？这个就比较义气了
+    - title: 超时空同居
+      eng_title: How Long Will I Love U
+      image: /img/movies/2018/how-long-will-i-love-u.jpg
+      douban_id: 27133303
+      imdb_id: tt8404272
+      douban_star: 4
+      release_date: 2018年05月18日
+      see_date: 2018年09月20日
+      location: 沙发上
+      version: 2D
+      comment: 穿越的喜剧，虽然剧情有点尴尬，但是演员还是挺出彩
+    - title: 法医秦明之幸存者
+      eng_title: Medical Examiner
+      image: /img/movies/2018/medical-examiner.jpg
+      douban_id: 27198145
+      imdb_id: tt8819854
+      douban_star: 4
+      release_date: 2018年08月09日
+      see_date: 2018年09月16日
+      location: 沙发上
+      version: 2D
+      comment: 剧情三分，多一份给秦明和死者对话这个有意思的设计，最后的案件有些简单。
     - title: 刺客伍六七
       eng_title: Killer Seven
       image: /img/movies/2018/killer-seven.jpg
