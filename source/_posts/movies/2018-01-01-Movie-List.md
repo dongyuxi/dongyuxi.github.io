@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 金色梦乡
+      eng_title: Golden Slumber
+      image: /img/movies/2018/golden-slumber.jpg
+      douban_id: 3660428
+      imdb_id: tt1413529
+      douban_star: 5
+      release_date: 2010年01月30日
+      see_date: 2018年09月23日
+      location: 沙发上
+      version: 2D
+      comment: 看完小说过来的，把原著在逃亡中的信念，对爱情、友情的信任拍的非常暖心，首尾的电梯情节真是难以让人忘记
     - title: 江湖儿女
       eng_title: Ash is Purest White
       image: /img/movies/2018/ash-is-purest-white.jpg
