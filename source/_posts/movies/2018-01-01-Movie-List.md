@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 祈祷落幕时
+      eng_title: The Crimes That Bind
+      image: /img/movies/2018/the-crimes-that-bind.jpg
+      douban_id: 27040737
+      imdb_id: tt7080138
+      douban_star: 4
+      release_date: 2010年01月27日
+      see_date: 2018年10月03日
+      location: 老家电脑上
+      version: 2D
+      comment: 典型东野圭吾的小说，让人不禁想起嫌疑人X的献身的爱与牺牲，演员各种飙演技，故事性稍微弱了一些
     - title: 金色梦乡
       eng_title: Golden Slumber
       image: /img/movies/2018/golden-slumber.jpg
