@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 无双
+      eng_title: Project Gutenberg
+      image: /img/movies/2018/project-gutenberg.jpg
+      douban_id: 26425063
+      imdb_id: tt7183578
+      douban_star: 5
+      release_date: 2010年10月23日
+      see_date: 2018年10月14日
+      location: 电影院
+      version: 2D
+      comment: 画家，以假乱真，两位影帝的精彩演出，剧情不停的反转
     - title: 祈祷落幕时
       eng_title: The Crimes That Bind
       image: /img/movies/2018/the-crimes-that-bind.jpg
