@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 网络谜踪
+      eng_title: Searching
+      image: /img/movies/2018/searching.jpg
+      douban_id: 27615441
+      imdb_id: tt7668870
+      douban_star: 5
+      release_date: 2018年08月24日
+      see_date: 2018年10月28日
+      location: 电影院
+      version: 2D
+      comment: 小成本制作的悬疑剧，坚持的父亲通过人肉搜索寻找女儿，不放过任何疑问
     - title: 无双
       eng_title: Project Gutenberg
       image: /img/movies/2018/project-gutenberg.jpg
@@ -372,12 +383,30 @@ movies:
 top: 9
 ---
 
+### 网络谜踪
+### 无双
+### 祈祷落幕时
+### 金色梦乡
+### 江湖儿女
+<!--more-->
+### 超时空同居
+### 法医秦明之幸存者
+### 刺客伍六七
+### 碟中谍6全面瓦解
+### 蚁人2黄蜂女现身
+### 快把我哥带走
+### 一出好戏
+### 狄仁杰之四大天王
+### 小偷家族
+### 猎毒人
+### 西虹市首富
+### 风语咒
+### 邪不压正
 ### 我不是药神
 ### 动物世界
 ### 骨语
 ### 全部成为F
 ### 魔法少女小圆
-<!--more-->
 ### 杀不死
 ### 女神异闻录4
 ### 三国机密之潜龙在渊
