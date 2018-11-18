@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 无名之辈
+      eng_title: A Cool Fish
+      image: /img/movies/2018/a-cool-fish.jpg
+      douban_id: 27110296
+      imdb_id: tt9282616
+      douban_star: 5
+      release_date: 2018年11月16日
+      see_date: 2018年11月18日
+      location: 电影院
+      version: 2D
+      comment: 一群无名之辈、毫无尊严的用自己的方式活着。
+    - title: 疯城记
+      eng_title: Psychoville Season 1
+      image: /img/movies/2018/psychoville-season-1.jpg
+      douban_id: 3287611
+      imdb_id: tt1305562
+      douban_star: 5
+      release_date: 2009年06月18日
+      see_date: 2018年11月16日
+      location: 班车上
+      version: 2D
+      comment: 每个人物的特点都太鲜明了，每条故事线都让人有欲望看下去，最后的结局留足悬念看下一季
     - title: 网络谜踪
       eng_title: Searching
       image: /img/movies/2018/searching.jpg
