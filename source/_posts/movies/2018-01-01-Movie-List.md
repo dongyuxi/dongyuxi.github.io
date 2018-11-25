@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 毒液
+      eng_title: Venom
+      image: /img/movies/2018/venom.jpg
+      douban_id: 3168101
+      imdb_id: tt1270797
+      douban_star: 4
+      release_date: 2018年11月09日
+      see_date: 2018年11月25日
+      location: 电影院
+      version: 3D
+      comment: 这个超级英雄有点不一样，后半段女主加分不少，期待续集
+    - title: 悲伤逆流成河
+      eng_title: Cry Me a Sad River
+      image: /img/movies/2018/cry-me-a-sad-river.jpg
+      douban_id: 27102569
+      imdb_id: tt9036926
+      douban_star: 4
+      release_date: 2018年09月21日
+      see_date: 2018年11月18日
+      location: 沙发上
+      version: 2D
+      comment: 我觉得有点超出我的预期，校园霸凌，每个人都是受害者，又都是施暴者
     - title: 无名之辈
       eng_title: A Cool Fish
       image: /img/movies/2018/a-cool-fish.jpg
@@ -25,7 +47,7 @@ movies:
       douban_star: 5
       release_date: 2009年06月18日
       see_date: 2018年11月16日
-      location: 班车上
+      location: 沙发上
       version: 2D
       comment: 每个人物的特点都太鲜明了，每条故事线都让人有欲望看下去，最后的结局留足悬念看下一季
     - title: 网络谜踪
