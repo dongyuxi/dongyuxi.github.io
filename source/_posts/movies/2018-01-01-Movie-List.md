@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 海王
+      eng_title: Aquaman
+      image: /img/movies/2018/aquaman.jpg
+      douban_id: 3878007
+      imdb_id: tt1477834
+      douban_star: 5
+      release_date: 2018年12月07日
+      see_date: 2018年12月09日
+      location: 电影院
+      version: 3D
+      comment: 商业片的典范，全程剧情紧凑，打斗暴力激烈，最精彩的是海底的世界很震撼
+    - title: 影
+      eng_title: Shadow
+      image: /img/movies/2018/shadow.jpg
+      douban_id: 4864908
+      imdb_id: tt6864046
+      douban_star: 4
+      release_date: 2018年09月30日
+      see_date: 2018年12月08日
+      location: 沙发上
+      version: 2D
+      comment: 后悔没去电影院去看，不过剧情很喜欢，国家个人的感情，悬疑武打也很有中国风
     - title: 毒液
       eng_title: Venom
       image: /img/movies/2018/venom.jpg
