@@ -6,6 +6,17 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 蜘蛛侠 平行宇宙
+      eng_title: Spider-Man Into the Spider-Verse
+      image: /img/movies/2018/into-the-spider-verse.jpg
+      douban_id: 26374197
+      imdb_id: tt4633694
+      douban_star: 5
+      release_date: 2018年12月21日
+      see_date: 2018年12月22日
+      location: 电影院
+      version: 3D
+      comment: 
     - title: 海王
       eng_title: Aquaman
       image: /img/movies/2018/aquaman.jpg
