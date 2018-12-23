@@ -16,7 +16,7 @@ movies:
       see_date: 2018年12月22日
       location: 电影院
       version: 3D
-      comment: 
+      comment: 音乐真的不错，剧情也不错，亲情、责任、成长，虽然不太认同年度最佳，但还是很推荐
     - title: 海王
       eng_title: Aquaman
       image: /img/movies/2018/aquaman.jpg
