@@ -6,6 +6,28 @@ tags: [影评]
 date: 2018-01-01
 permalink: Movie-List
 movies:
+    - title: 地球最后的夜晚
+      eng_title: Long Day's Journey Into Night
+      image: /img/movies/2018/roadside-picnic.jpg
+      douban_id: 26633257
+      imdb_id: tt8185182
+      douban_star: 3
+      release_date: 2018年12月31日
+      see_date: 2018年12月31日
+      location: 电影院
+      version: 3D
+      comment: 2018最后一部电影，没看懂......真的没看懂
+    - title: 来电狂响
+      eng_title: Kill Mobile
+      image: /img/movies/2018/kill-mobile.jpg
+      douban_id: 30377703
+      imdb_id: tt9408490
+      douban_star: 4
+      release_date: 2018年12月28日
+      see_date: 2018年12月30日
+      location: 电影院
+      version: 3D
+      comment: 音乐真的不错，剧情也不错，亲情、责任、成长，虽然不太认同年度最佳，但还是很推荐
     - title: 蜘蛛侠 平行宇宙
       eng_title: Spider-Man Into the Spider-Verse
       image: /img/movies/2018/into-the-spider-verse.jpg
