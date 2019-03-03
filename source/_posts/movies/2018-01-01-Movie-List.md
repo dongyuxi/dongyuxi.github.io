@@ -26,8 +26,8 @@ movies:
       release_date: 2018年12月28日
       see_date: 2018年12月30日
       location: 电影院
-      version: 3D
-      comment: 音乐真的不错，剧情也不错，亲情、责任、成长，虽然不太认同年度最佳，但还是很推荐
+      version: 2D
+      comment: 国内版的陌生人，整体感觉还可以，剧本有点小硬伤，乔杉太逗了
     - title: 蜘蛛侠 平行宇宙
       eng_title: Spider-Man Into the Spider-Verse
       image: /img/movies/2018/into-the-spider-verse.jpg
