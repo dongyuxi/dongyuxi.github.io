@@ -6,9 +6,20 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 怒晴湘西
+      eng_title: The Wrath Of Time
+      image: /img/movies/2019/the-wrath-of-time.jpg
+      douban_id: 27202985
+      imdb_id: tt9642746
+      douban_star: 5
+      release_date: 2019年01月21日
+      see_date: 2019年03月03日
+      location: 沙发
+      version: 2D
+      comment: 喜欢这个风格的，也是第一部看完的鬼吹灯系列电视剧
     - title: 大人物
       eng_title: Big Match
-      image: /img/movies/2018/big-match.jpg
+      image: /img/movies/2019/big-match.jpg
       douban_id: 26816076
       imdb_id: tt9596638
       douban_star: 4
@@ -20,9 +31,6 @@ movies:
 top: 9
 ---
 
-### 网络谜踪
-### 无双
-### 祈祷落幕时
-### 金色梦乡
-### 江湖儿女
+### 怒晴湘西
+### 大人物
 <!--more-->
