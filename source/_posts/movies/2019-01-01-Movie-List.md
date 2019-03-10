@@ -6,6 +6,17 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 绿皮书
+      eng_title: Green Book
+      image: /img/movies/2019/green-book.jpg
+      douban_id: 27060077
+      imdb_id: tt6966692
+      douban_star: 5
+      release_date: 2019年03月01日
+      see_date: 2019年03月09日
+      location: 沙发
+      version: 2D
+      comment: 一部看完让人感觉非常温暖的公路喜剧，阶级、肤色和文化差异都没有限制二位的友谊。
     - title: 怒晴湘西
       eng_title: The Wrath Of Time
       image: /img/movies/2019/the-wrath-of-time.jpg
@@ -31,6 +42,7 @@ movies:
 top: 9
 ---
 
+### 绿皮书
 ### 怒晴湘西
 ### 大人物
 <!--more-->
