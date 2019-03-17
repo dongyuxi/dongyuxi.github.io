@@ -6,6 +6,28 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 窗前不止明月光
+      eng_title: Out of Order
+      image: /img/movies/2019/out-of-order.jpg
+      douban_id: 30351814
+      imdb_id: 30351814
+      douban_star: 3
+      release_date: 2019年03月01日
+      see_date: 2019年03月13日
+      location: 地质礼堂
+      version: 舞台
+      comment: 整体剧情不如那几部经典，场景就一个，基本靠台词，多亏杜晓宇的表演功力，不过中间还是笑了不少次。
+    - title: 逆流而上的你
+      eng_title: Unbeatable You
+      image: /img/movies/2019/unbeatable-you.jpg
+      douban_id: 30181133
+      imdb_id: 30181133
+      douban_star: 4
+      release_date: 2019年02月12日
+      see_date: 2019年03月10日
+      location: 沙发
+      version: 2D
+      comment: 比较轻松的电视剧，个人觉得没有评分那么不堪，就是配音有的不是自己的有时候出戏。
     - title: 绿皮书
       eng_title: Green Book
       image: /img/movies/2019/green-book.jpg
