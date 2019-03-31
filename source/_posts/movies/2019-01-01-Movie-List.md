@@ -6,6 +6,17 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 冷案
+      eng_title: Code Case
+      image: /img/movies/2019/code-case.jpg
+      douban_id: 27080950
+      imdb_id: 27080950
+      douban_star: 4
+      release_date: 2019年03月04日
+      see_date: 2019年03月30日
+      location: 沙发上
+      version: 2D
+      comment: 超出预期的悬疑剧，演员演技有时候不在线，但是案子还是很不错而且角度比较独特，期待一小下第二季。
     - title: 窗前不止明月光
       eng_title: Out of Order
       image: /img/movies/2019/out-of-order.jpg
@@ -64,6 +75,9 @@ movies:
 top: 9
 ---
 
+### 冷案
+### 窗前不止明月光
+### 逆流而上的你
 ### 绿皮书
 ### 怒晴湘西
 ### 大人物
