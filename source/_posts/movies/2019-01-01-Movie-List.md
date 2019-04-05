@@ -6,6 +6,28 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 约定的梦幻岛
+      eng_title: The Promised Neverland
+      image: /img/movies/2019/the-promised-neverland.jpg
+      douban_id: 30206430
+      imdb_id: tt8788458
+      douban_star: 5
+      release_date: 2019年01月10日
+      see_date: 2019年03月30日
+      location: 沙发上
+      version: 2D
+      comment: 几乎提前预定了年度五佳，尤其最后一集，吹爆！
+    - title: 乡村爱情11
+      eng_title: Country Love 11
+      image: /img/movies/2019/country-love-11.jpg
+      douban_id: 30317184
+      imdb_id: 30317184
+      douban_star: 3
+      release_date: 2019年01月26日
+      see_date: 2019年04月05日
+      location: 电脑桌
+      version: 2D
+      comment: 整体情节有点太拖沓了，而且几个年轻的新人的剧情有点和之前重复。
     - title: 冷案
       eng_title: Code Case
       image: /img/movies/2019/code-case.jpg
@@ -75,10 +97,15 @@ movies:
 top: 9
 ---
 
+### 约定的梦幻岛
+### 乡村爱情11
 ### 冷案
 ### 窗前不止明月光
 ### 逆流而上的你
+
+<!--more-->
+
 ### 绿皮书
 ### 怒晴湘西
 ### 大人物
-<!--more-->
+
