@@ -6,6 +6,17 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 调音师
+      eng_title: Andhadhun
+      image: /img/movies/2019/andhadhun.jpg
+      douban_id: 30334073
+      imdb_id: tt8108198
+      douban_star: 5
+      release_date: 2019年04月03日
+      see_date: 2019年04月06日
+      location: 电影院
+      version: 2D
+      comment: 有点忘了是否看过短篇的原版，不过这一部的剧情反转的有点猛烈，推荐。
     - title: 约定的梦幻岛
       eng_title: The Promised Neverland
       image: /img/movies/2019/the-promised-neverland.jpg
@@ -69,7 +80,7 @@ movies:
       douban_star: 5
       release_date: 2019年03月01日
       see_date: 2019年03月09日
-      location: 沙发
+      location: 电影院
       version: 2D
       comment: 一部看完让人感觉非常温暖的公路喜剧，阶级、肤色和文化差异都没有限制二位的友谊。
     - title: 怒晴湘西
