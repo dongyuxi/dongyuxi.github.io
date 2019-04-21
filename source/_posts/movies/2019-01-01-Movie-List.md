@@ -6,6 +6,17 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 我们与恶的距离
+      eng_title: The World Between Us
+      image: /img/movies/2019/the-world-between-us.jpg
+      douban_id: 30181230
+      imdb_id: tt10073114
+      douban_star: 5
+      release_date: 2019年03月24日
+      see_date: 2019年04月21日
+      location: 电脑桌
+      version: 2D
+      comment: 严肃的社会话题，关于法律和道德的讨论。犯罪的背后更多的是缺少关爱。所有演员在线。 
     - title: 调音师
       eng_title: Andhadhun
       image: /img/movies/2019/andhadhun.jpg
