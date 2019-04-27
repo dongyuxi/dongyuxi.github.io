@@ -6,6 +6,17 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 暗黑者3
+      eng_title: Darker 3
+      image: /img/movies/2019/darker-3.jpg
+      douban_id: 26609685
+      imdb_id: 26609685
+      douban_star: 3
+      release_date: 2019年03月28日
+      see_date: 2019年04月28日
+      location: 沙发上
+      version: 2D
+      comment: 有些想不起来具体的剧情了，不过后面比前面好些，应该是3.5分吧。
     - title: 我们与恶的距离
       eng_title: The World Between Us
       image: /img/movies/2019/the-world-between-us.jpg
