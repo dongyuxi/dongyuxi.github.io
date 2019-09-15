@@ -6,6 +6,39 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 徒手攀岩
+      eng_title: Free Solo
+      image: /img/movies/2019/free-solo.jpg
+      douban_id: 30167509
+      imdb_id: tt7775622
+      douban_star: 5
+      release_date: 2019年09月06日
+      see_date: 2019年09月15日
+      location: 电影院
+      version: 2D
+      comment: 虽然我们都知道他成功了，但是过程并没有想象的顺利，追求极限是某些人的追求，即使会因此失去生命。
+    - title: 轮到你了
+      eng_title: It Is Your Turn
+      image: /img/movies/2019/it-is-your-turn.jpg
+      douban_id: 30446788
+      imdb_id: tt9679644
+      douban_star: 5
+      release_date: 2019年04月14日
+      see_date: 2019年09月13日
+      location: 年会公交
+      version: 2D
+      comment: 最爱的类型，结局我是能接受的，如果能把坑再填一下就更好了。
+    - title: 无主之城
+      eng_title: Last One Standing
+      image: /img/movies/2019/last-one-standing.jpg
+      douban_id: 30191989
+      imdb_id: 30191989
+      douban_star: 4
+      release_date: 2019年08月01日
+      see_date: 2019年08月31日
+      location: 跑步机
+      version: 2D
+      comment: 这个题材的电影电视剧看的太多了，不过整个剧情还算可以，最近AI相关的悬疑有点多。
     - title: 暗黑者3
       eng_title: Darker 3
       image: /img/movies/2019/darker-3.jpg
@@ -130,14 +163,20 @@ movies:
 top: 9
 ---
 
+### 徒手攀岩
+### 轮到你了
+### 无主之城
+
+<!--more-->
+
+### 暗黑者3
+### 我们与恶的距离
+### 调音师
 ### 约定的梦幻岛
 ### 乡村爱情11
 ### 冷案
 ### 窗前不止明月光
 ### 逆流而上的你
-
-<!--more-->
-
 ### 绿皮书
 ### 怒晴湘西
 ### 大人物
