@@ -6,6 +6,28 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 沉默的证人
+      eng_title: Bodies at Rest
+      image: /img/movies/2019/bodies-at-rest.jpg
+      douban_id: 26816090
+      imdb_id: tt7937440
+      douban_star: 3
+      release_date: 2019年08月16日
+      see_date: 2019年10月09日
+      location: 班车上
+      version: 2D
+      comment: 不知道张家辉和杨紫为啥要拍这种电影，太一般了，而且成本也太低了。
+    - title: 我和我的祖国
+      eng_title: My People, My Country
+      image: /img/movies/2019/my-people-my-country.jpg
+      douban_id: 32659890
+      imdb_id: tt10147382
+      douban_star: 5
+      release_date: 2019年09月30日
+      see_date: 2019年10月05日
+      location: 电影院
+      version: 2D
+      comment: 第一次带老爸老妈看电影，他俩开心就好，满分。
     - title: 徒手攀岩
       eng_title: Free Solo
       image: /img/movies/2019/free-solo.jpg
