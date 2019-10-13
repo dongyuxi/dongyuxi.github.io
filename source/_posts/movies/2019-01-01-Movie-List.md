@@ -6,6 +6,17 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 他人即地狱
+      eng_title: Hellis Other People
+      image: /img/movies/2019/hellis-other-people.jpg
+      douban_id: 30442494
+      imdb_id: tt10613844
+      douban_star: 5
+      release_date: 2019年08月31日
+      see_date: 2019年10月13日
+      location: 班车上
+      version: 2D
+      comment: 整体风格惊悚多过悬疑，有点类似《暗黑者》，最后留下医生的悬念也是开放式，很有韩国犯罪片的风采。
     - title: 沉默的证人
       eng_title: Bodies at Rest
       image: /img/movies/2019/bodies-at-rest.jpg
@@ -185,6 +196,9 @@ movies:
 top: 9
 ---
 
+### 他人即地狱
+### 沉默的证人
+### 我和我的祖国
 ### 徒手攀岩
 ### 轮到你了
 ### 无主之城
