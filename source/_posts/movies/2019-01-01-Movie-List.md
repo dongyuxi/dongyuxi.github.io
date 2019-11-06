@@ -6,6 +6,28 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 名侦探柯南-绀青之拳
+      eng_title: The Fist of Blue Sapphire
+      image: /img/movies/2019/the-fist-of-blue-sapphire.jpg
+      douban_id: 30208010
+      imdb_id: tt9501310
+      douban_star: 3
+      release_date: 2019年09月13日
+      see_date: 2019年11月05日
+      location: 班车上
+      version: 2D
+      comment: 真是没太看懂这一集要讲啥东西，也和主线关系不大，就是基德出来了一下？
+    - title: 真相捕捉
+      eng_title: The Capture Season 1
+      image: /img/movies/2019/the-capture-season-1.jpg
+      douban_id: 30305530
+      imdb_id: tt8201186
+      douban_star: 5
+      release_date: 2019年09月03日
+      see_date: 2019年10月20日
+      location: 班车上
+      version: 2D
+      comment: 豆瓣上找到的意外收获，前几集节奏很适合，后面稍微有点拖沓，不过整体还不错，希望不要烂尾。
     - title: 他人即地狱
       eng_title: Hellis Other People
       image: /img/movies/2019/hellis-other-people.jpg
@@ -196,15 +218,17 @@ movies:
 top: 9
 ---
 
+### 名侦探柯南-绀青之拳
+### 真相捕捉
 ### 他人即地狱
 ### 沉默的证人
 ### 我和我的祖国
 ### 徒手攀岩
-### 轮到你了
-### 无主之城
 
 <!--more-->
 
+### 轮到你了
+### 无主之城
 ### 暗黑者3
 ### 我们与恶的距离
 ### 调音师
