@@ -6,6 +6,50 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 爱，死亡和机器人
+      eng_title: Love, Death & Robots
+      image: /img/movies/2019/love-death-robots.jpg
+      douban_id: 30424374
+      imdb_id: tt9561862
+      douban_star: 5
+      release_date: 2019年03月15日
+      see_date: 2019年11月17日
+      location: 班车上
+      version: 2D
+      comment: 神作，虽然中间有几部没太看懂，但是整体水平真的很高。
+    - title: 小丑2019
+      eng_title: Joker
+      image: /img/movies/2019/joker.jpg
+      douban_id: 27119724
+      imdb_id: tt7286456
+      douban_star: 5
+      release_date: 2019年10月04日
+      see_date: 2019年11月17日
+      location: 沙发上
+      version: 2D
+      comment: 剖析人性，讲述小丑之路，不过联系到最近香港的事情有点不舒服。
+    - title: 犯罪现场
+      eng_title: A Witness out of the Blue
+      image: /img/movies/2019/a-witness-out-of-the-blue.jpg
+      douban_id: 26235346
+      imdb_id: tt11076480
+      douban_star: 3
+      release_date: 2019年10月12日
+      see_date: 2019年11月16日
+      location: 沙发上
+      version: 2D
+      comment: 前半段优秀，后半段莫名其妙了，而且没有特别出乎意料，古天乐撑起来香港电影啊。
+    - title: 双子杀手
+      eng_title: Gemini Man
+      image: /img/movies/2019/gemini-man.jpg
+      douban_id: 3097572
+      imdb_id: tt1025100
+      douban_star: 3
+      release_date: 2019年10月18日
+      see_date: 2019年11月09日
+      location: 电影院
+      version: 3D
+      comment: 从技术角度这部电影确实很不错，但是从剧情角度感觉太别扭了，从要表达的观点角度缺少心意。
     - title: 名侦探柯南-绀青之拳
       eng_title: The Fist of Blue Sapphire
       image: /img/movies/2019/the-fist-of-blue-sapphire.jpg
