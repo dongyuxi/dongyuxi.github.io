@@ -6,6 +6,39 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 河神
+      eng_title: Tientsin Mystic
+      image: /img/movies/2019/tientsin-mystic.jpg
+      douban_id: 26776350
+      imdb_id: tt7431768
+      douban_star: 5
+      release_date: 2017年07月19日
+      see_date: 2019年12月01日
+      location: 班车上
+      version: 2D
+      comment: 制作精良，剧情很吸引人，就是结局稍微有点奇怪。
+    - title: 利刃出鞘
+      eng_title: Knives Out
+      image: /img/movies/2019/knives-out.jpg
+      douban_id: 30318116
+      imdb_id: tt8946378
+      douban_star: 5
+      release_date: 2019年11月29日
+      see_date: 2019年12月01日
+      location: 电影院
+      version: 2D
+      comment: 太喜欢这种推理+搞笑的侦探，希望中国也能拍出来。
+    - title: 两只老虎
+      eng_title: Two Tigers
+      image: /img/movies/2019/two-tigers.jpg
+      douban_id: 30196805
+      imdb_id: tt10333606
+      douban_star: 4
+      release_date: 2019年11月29日
+      see_date: 2019年11月30日
+      location: 电影院
+      version: 2D
+      comment: 几位演员都不错，就是故事有点尴尬，铺垫太长，浪费了这么好的阵容。
     - title: 爱，死亡和机器人
       eng_title: Love, Death & Robots
       image: /img/movies/2019/love-death-robots.jpg
