@@ -6,6 +6,28 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 误杀
+      eng_title: Visual
+      image: /img/movies/2019/visual.jpg
+      douban_id: 30176393
+      imdb_id: tt11210032
+      douban_star: 5
+      release_date: 2019年12月13日
+      see_date: 2019年12月14日
+      location: 电影院
+      version: 2D
+      comment: 不能因为反派就给低分，在原著基础上有提高和升华，肖央真的适合这种角色。
+    - title: 催眠裁决
+      eng_title: Guilt by Design
+      image: /img/movies/2019/guilt-by-design.jpg
+      douban_id: 26752547
+      imdb_id: tt10098494
+      douban_star: 3
+      release_date: 2019年10月25日
+      see_date: 2019年12月07日
+      location: 沙发上
+      version: 2D
+      comment: 渣渣辉，能不能接点像样的片子？今年产量挺多，低成本的不少。
     - title: 河神
       eng_title: Tientsin Mystic
       image: /img/movies/2019/tientsin-mystic.jpg
