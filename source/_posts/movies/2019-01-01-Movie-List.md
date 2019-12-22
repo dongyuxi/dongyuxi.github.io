@@ -6,6 +6,39 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 半个喜剧
+      eng_title: Almost a Comedy
+      image: /img/movies/2019/almost-a-comedy.jpg
+      douban_id: 30269016
+      imdb_id: tt11273332
+      douban_star: 5
+      release_date: 2019年12月20日
+      see_date: 2019年12月22日
+      location: 电影院
+      version: 2D
+      comment: 还是比较喜欢开心麻花的风格，比较接地气儿的理想主义喜剧。
+    - title: 少年的你
+      eng_title: Better Days
+      image: /img/movies/2019/better-days.jpg
+      douban_id: 30166972
+      imdb_id: tt9586294
+      douban_star: 5
+      release_date: 2019年10月25日
+      see_date: 2019年12月21日
+      location: 沙发
+      version: 2D
+      comment: 校园版的白夜行？周冬雨的演技比较稳定，千玺的演技还是让人刮目相看的。
+    - title: 长安道
+      eng_title: Chang An
+      image: /img/movies/2019/change-an.jpg
+      douban_id: 25747204
+      imdb_id: tt11203678
+      douban_star: 4
+      release_date: 2019年11月15日
+      see_date: 2019年12月21日
+      location: 沙发
+      version: 2D
+      comment: 和小说情节不太一样，演员演技都不错，如果剧情能再复杂一点就好了。
     - title: 误杀
       eng_title: Visual
       image: /img/movies/2019/visual.jpg
