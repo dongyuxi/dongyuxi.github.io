@@ -6,6 +6,28 @@ tags: [影评]
 date: 2019-01-01
 permalink: Movie-List
 movies:
+    - title: 你是凶手
+      eng_title: The Guilty Ones
+      image: /img/movies/2019/the-guilty-ones.jpg
+      douban_id: 26762744
+      imdb_id: tt10097530
+      douban_star: 3
+      release_date: 2019年11月22日
+      see_date: 2019年12月29日
+      location: 沙发
+      version: 2D
+      comment: 原剧本应该挺好的，演员演的也没问题，就是节奏太乱。
+    - title: 中国机长
+      eng_title: The Captain
+      image: /img/movies/2019/the-captain.jpg
+      douban_id: 30295905
+      imdb_id: tt10218664
+      douban_star: 4
+      release_date: 2019年09月30日
+      see_date: 2019年12月28日
+      location: 沙发
+      version: 2D
+      comment: 解禁第一时间看的，稍微有点觉得不够劲儿，不过张涵予和袁泉还是很给力的。
     - title: 半个喜剧
       eng_title: Almost a Comedy
       image: /img/movies/2019/almost-a-comedy.jpg
