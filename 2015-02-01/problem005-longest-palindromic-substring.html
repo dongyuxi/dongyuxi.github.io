@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>LeetCode 005 - Longest Palindromic Substring - 题解/Solution | Yuxi Top Blog - 董玉玺的个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="dongyuxi.top,Yuxi Top Blog - 董玉玺的个人博客,温暖岁月，惊艳时光,LeetCode 005 - Longest Palindromic Substring - 题解/Solution">
+  <meta name="description" content="*https://leetcode.com/problems/longest-palindromic-substring/*">
+<meta name="keywords" content="leetcode,java,solution,题解,解题报告">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LeetCode 005 - Longest Palindromic Substring - 题解&#x2F;Solution">
+<meta property="og:url" content="http://dongyuxi.top/2015-02-01/problem005-longest-palindromic-substring.html">
+<meta property="og:site_name" content="Yuxi Top Blog - 董玉玺的个人博客">
+<meta property="og:description" content="*https://leetcode.com/problems/longest-palindromic-substring/*">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2020-03-01T08:47:34.132Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="LeetCode 005 - Longest Palindromic Substring - 题解&#x2F;Solution">
+<meta name="twitter:description" content="*https://leetcode.com/problems/longest-palindromic-substring/*">
+  
+    <link rel="alternative" href="/atom.xml" title="Yuxi Top Blog - 董玉玺的个人博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/logo.ico">
+  
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/img/logo.ico">
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
+</head>
+</html>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/avatar.jpg" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/">Dong Yuxi</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">温暖岁月，惊艳时光</p>
+        
+                
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/archives/">时间轴</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/movie-list/">电影迷</a></li>
+                        
+                            <li><a href="/book-list/">读书堂</a></li>
+                        
+                            <li><a href="/about.html">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <li id="Email"><a class="Email" target="_blank" href="mailto:dongyuxi2004@163.com" title="Email"></a></li>
+                            
+                                <li id="新浪微博"><a class="新浪微博" target="_blank" href="http://weibo.com/orange2010road" title="新浪微博"></a></li>
+                            
+                                <li id="GitHub"><a class="GitHub" target="_blank" href="https://github.com/dongyuxi" title="GitHub"></a></li>
+                            
+                                <li id="RSS"><a class="RSS" target="_blank" href="/atom.xml" title="RSS"></a></li>
+                            
+                                <li id="知乎"><a class="知乎" target="_blank" href="https://www.zhihu.com/people/dong-yu-xi" title="知乎"></a></li>
+                            
+                                <li id="豆瓣"><a class="豆瓣" target="_blank" href="http://www.douban.com/people/dongyuxi/" title="豆瓣"></a></li>
+                            
+                                <li id="LinkedIn"><a class="LinkedIn" target="_blank" href="http://www.linkedin.com/in/dongyuxi" title="LinkedIn"></a></li>
+                            
+                        </ul>
+                        <a class="share" href="https://coding.net/pages">Hosted by Coding Pages</a>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/Intellij/" style="font-size: 10px;">Intellij</a> <a href="/tags/api/" style="font-size: 11px;">api</a> <a href="/tags/crontab/" style="font-size: 10px;">crontab</a> <a href="/tags/docker/" style="font-size: 11px;">docker</a> <a href="/tags/eclipse/" style="font-size: 11px;">eclipse</a> <a href="/tags/fastcgi/" style="font-size: 11px;">fastcgi</a> <a href="/tags/git/" style="font-size: 11px;">git</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/jdk/" style="font-size: 10px;">jdk</a> <a href="/tags/jekyll/" style="font-size: 10px;">jekyll</a> <a href="/tags/jsp/" style="font-size: 10px;">jsp</a> <a href="/tags/leetcode/" style="font-size: 19px;">leetcode</a> <a href="/tags/linux/" style="font-size: 17px;">linux</a> <a href="/tags/lucene/" style="font-size: 10px;">lucene</a> <a href="/tags/mac/" style="font-size: 15px;">mac</a> <a href="/tags/maven/" style="font-size: 12px;">maven</a> <a href="/tags/mysql/" style="font-size: 11px;">mysql</a> <a href="/tags/nginx/" style="font-size: 11px;">nginx</a> <a href="/tags/nlp/" style="font-size: 10px;">nlp</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/redis/" style="font-size: 10px;">redis</a> <a href="/tags/spring-boot/" style="font-size: 13px;">spring-boot</a> <a href="/tags/tensorflow/" style="font-size: 11px;">tensorflow</a> <a href="/tags/ubuntu/" style="font-size: 14px;">ubuntu</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/web/" style="font-size: 11px;">web</a> <a href="/tags/三国杀/" style="font-size: 10px;">三国杀</a> <a href="/tags/世界杯/" style="font-size: 12px;">世界杯</a> <a href="/tags/东野圭吾/" style="font-size: 10px;">东野圭吾</a> <a href="/tags/书评/" style="font-size: 12px;">书评</a> <a href="/tags/励志/" style="font-size: 10px;">励志</a> <a href="/tags/卧底/" style="font-size: 10px;">卧底</a> <a href="/tags/哈工大/" style="font-size: 11px;">哈工大</a> <a href="/tags/影评/" style="font-size: 18px;">影评</a> <a href="/tags/悬疑/" style="font-size: 14px;">悬疑</a> <a href="/tags/感悟/" style="font-size: 11px;">感悟</a> <a href="/tags/文字/" style="font-size: 12px;">文字</a> <a href="/tags/海淘/" style="font-size: 10px;">海淘</a> <a href="/tags/游戏/" style="font-size: 11px;">游戏</a> <a href="/tags/生活/" style="font-size: 10px;">生活</a> <a href="/tags/经验/" style="font-size: 16px;">经验</a>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">一个学计算机的胖子</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Dong Yuxi</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/avatar.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Dong Yuxi</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">温暖岁月，惊艳时光</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/archives/">时间轴</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/movie-list/">电影迷</a></li>
+                
+                    <li><a href="/book-list/">读书堂</a></li>
+                
+                    <li><a href="/about.html">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <li id="Email"><a class="Email" target="_blank" href="mailto:dongyuxi2004@163.com" title="Email"></a></li>
+                            
+                                <li id="新浪微博"><a class="新浪微博" target="_blank" href="http://weibo.com/orange2010road" title="新浪微博"></a></li>
+                            
+                                <li id="GitHub"><a class="GitHub" target="_blank" href="https://github.com/dongyuxi" title="GitHub"></a></li>
+                            
+                                <li id="RSS"><a class="RSS" target="_blank" href="/atom.xml" title="RSS"></a></li>
+                            
+                                <li id="知乎"><a class="知乎" target="_blank" href="https://www.zhihu.com/people/dong-yu-xi" title="知乎"></a></li>
+                            
+                                <li id="豆瓣"><a class="豆瓣" target="_blank" href="http://www.douban.com/people/dongyuxi/" title="豆瓣"></a></li>
+                            
+                                <li id="LinkedIn"><a class="LinkedIn" target="_blank" href="http://www.linkedin.com/in/dongyuxi" title="LinkedIn"></a></li>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap"><article id="post-problem005-longest-palindromic-substring" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015-02-01/problem005-longest-palindromic-substring.html" class="article-date">
+      <time datetime="2015-01-31T16:00:00.000Z" itemprop="datePublished">2015-02-01</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      LeetCode 005 - Longest Palindromic Substring - 题解/Solution
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/刷题/">刷题</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/leetcode/">leetcode</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p><strong>*<a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener">https://leetcode.com/problems/longest-palindromic-substring/</a>*</strong></p>
+<a id="more"></a>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Given a string S, find the longest palindromic substring in S. You may assume</span></span><br><span class="line"><span class="comment"> * that the maximum length of S is 1000, and there exists one unique longest</span></span><br><span class="line"><span class="comment"> * palindromic substring.</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> dongyuxi</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">longestPalindrome</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">null</span> == s || <span class="number">0</span> == s.length()) &#123;</span><br><span class="line">            <span class="keyword">return</span> s;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> longest = <span class="number">0</span>;</span><br><span class="line">        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.length(); i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> left = i - <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">int</span> right = s.length() - <span class="number">1</span> - i;</span><br><span class="line">            <span class="keyword">int</span> min = Math.min(left, right);</span><br><span class="line">            <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">while</span> (j &lt; min) &#123;</span><br><span class="line">                <span class="keyword">if</span> (s.charAt(i - j - <span class="number">1</span>) != s.charAt(i + j + <span class="number">1</span>)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (<span class="number">2</span> * j + <span class="number">1</span> &gt; longest) &#123;</span><br><span class="line">                longest = <span class="number">2</span> * j + <span class="number">1</span>;</span><br><span class="line">                sb.delete(<span class="number">0</span>, sb.length());</span><br><span class="line">                sb.append(s.substring(i - j, i + j + <span class="number">1</span>));</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (i &lt; s.length() - <span class="number">1</span> &amp;&amp; s.charAt(i) == s.charAt(i + <span class="number">1</span>)) &#123;</span><br><span class="line">                right = s.length() - <span class="number">2</span> - i;</span><br><span class="line">                min = Math.min(left, right);</span><br><span class="line">                j = <span class="number">0</span>;</span><br><span class="line">                <span class="keyword">while</span> (j &lt; min) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (s.charAt(i - j - <span class="number">1</span>) != s.charAt(i + j + <span class="number">2</span>)) &#123;</span><br><span class="line">                        <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    j++;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span> (<span class="number">2</span> * j + <span class="number">2</span> &gt; longest) &#123;</span><br><span class="line">                    longest = <span class="number">2</span> * j + <span class="number">2</span>;</span><br><span class="line">                    sb.delete(<span class="number">0</span>, sb.length());</span><br><span class="line">                    sb.append(s.substring(i - j, i + j + <span class="number">2</span>));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> sb.toString();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+      
+        <hr>
+        <div class="pay" style="text-align:center">
+    <img src="/img/pay/alipay_qr_code.jpg" alt="支付宝">
+    <img src="/img/pay/wechat_pay_qr_code.jpg" alt="微信">
+</div>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2015-02-01/problem004-median-of-two-sorted-arrays.html">
+                    LeetCode 004 - Median of Two Sorted Arrays - 题解/Solution
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2015-02-01/problem006-zigzag-conversion.html">
+                    LeetCode 006 - ZigZag Conversion - 题解/Solution
+                </a>
+            </div>
+        
+    </nav>
+
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+<div class="share">
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+    <a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a>
+    <a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+    </div>
+    <script>
+        window._bd_share_config={
+            "common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+</div>
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2015-02-01/problem005-longest-palindromic-substring.html" data-title="LeetCode 005 - Longest Palindromic Substring - 题解/Solution" data-url="http://dongyuxi.top/2015-02-01/problem005-longest-palindromic-substring.html"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"dongyuxi"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2015-02-01/problem004-median-of-two-sorted-arrays.html" title="上一篇: LeetCode 004 - Median of Two Sorted Arrays - 题解/Solution">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2015-02-01/problem006-zigzag-conversion.html" title="下一篇: LeetCode 006 - ZigZag Conversion - 题解/Solution">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020-01-01/Movie-List.html">2020年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2019-01-01/Movie-List.html">2019年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2018-01-01/Book-List.html">2018年读书短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2018-01-01/Movie-List.html">2018年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2017-05-14/Python2-Compare-String-And-Integer.html">Python2比较字符串和整型</a></li><li class="post-list-item"><a class="post-list-link" href="/2017-01-01/Movie-List.html">2017年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-11-20/Nginx-FastCGI-Static-Content.html">Nginx返回静态内容的2种方式</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-10-28/Nginx-FastCGI-Setup.html">Nginx + FastCGI</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-10-08/Tensorflow-Setup-Mac.html">Tensorflow学习笔记之一：安装、Hello World配置和运行(Mac)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-10-08/Tensorflow-Setup-Mac.html">Tensorflow学习笔记之二：梵高作画</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-07-07/Spring-Boot-4-JSP.html">Spring-Boot学习笔记之四：支持JSP</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-06-20/Spring-Boot-3-Mysql.html">Spring-Boot学习笔记之三：持久化数据存储之Mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-06-12/intellij-export-jar.html">Intellij Idea导出jar文件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-06-07/Spring-Boot-2-CommandLineRunner.html">Spring-Boot学习笔记之二：应用启动第一步CommandLineRunner</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-06-06/Spring-Boot-1-Setup-Mac.html">Spring-Boot学习笔记之一：简介、Hello World配置和运行(Mac)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-05-29/Docker-Run-And-Create-Image-Mac.html">Docker学习笔记之二：运行并创建镜像(Mac)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-03-21/Lucene-1-Setup-Mac.html">Lucene学习笔记之一：简介和示例</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-03-18/Redis-1-Setup-Mac.html">Redis学习笔记之一：简介和安装(Mac)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-03-18/Maven-Setup.html">Maven笔记之一：简介和安装(Mac和Windows)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-03-16/Docker-Setup-Mac.html">Docker学习笔记之一：简介和安装(Mac)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-03-12/Maven-Aggregation-Inheritance.html">Maven笔记之三：聚合与继承</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-03-05/Maven-Dependency-Basic.html">Maven笔记之二：依赖基础</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-02-29/Git-Diff-Local-File.html">使用Git命令对比本地文件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-02-28/Remove-Linux-M.html">删除linux文件中^M</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-02-23/Eclipse-Lombok-Android-XML-Failed.html">Eclipse安装Lombok和Android后保存xml文件失败</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-01-26/Crontab-Question.html">Crontab中问号?的作用</a></li><li class="post-list-item"><a class="post-list-link" href="/2016-01-01/Movie-List.html">2016年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-16/problem143-reorder-list.html">LeetCode 143 - Reorder List - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-12/problem130-surrounded-regions.html">LeetCode 130 - Surrounded Regions - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-10/problem200-number-of-islands.html">LeetCode 200 - Number of Islands - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem137-single-number-ii.html">LeetCode 137 - Single Number II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem190-reverse-bits.html">LeetCode 190 - Reverse Bits - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem191-number-of-1-bits.html">LeetCode 191 - Number of 1 Bits - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem199-binary-tree-right-side-view.html">LeetCode 199 - Binary Tree Right Side View - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem204-count-primes.html">LeetCode 204 - Count Primes - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem206-reverse-linked-list.html">LeetCode 206 - Reverse Linked List - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-05-09/problem205-isomorphic-strings.html">LeetCode 206 - Isomorphic Strings - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-28/problem097-interleaving-string.html">LeetCode 097 - Interleaving String - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-27/problem045-jump-game-ii.html">LeetCode 045 - Jump Game II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-27/problem055-jump-game.html">LeetCode 055 - Jump Game - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-26/problem023-merge-k-sorted-lists.html">LeetCode 023 - Merge k Sorted Lists - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-26/problem030-substring-with-concatenation-of-all-words.html">LeetCode 030 - Substring with Concatenation of All Words - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-26/problem198-house-robber.html">LeetCode 198 - House Robber - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-26/problem202-happy-number.html">LeetCode 202 - Happy Number - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-04-26/problem203-remove-linked-list-elements.html">LeetCode 203 - Remove Linked List Elements - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem101-symmetric-tree.html">LeetCode 101 - Symmetric Tree - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem102-binary-tree-level-order-traversal.html">LeetCode 102 - Binary Tree Level Order Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem103-binary-tree-zigzag-level-order-traversal.html">LeetCode 103 - Binary Tree Zigzag Level Order Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem104-maximum-depth-of-binary-tree.html">LeetCode 104 - Maximum Depth of Binary Tree - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem106-construct-binary-tree-from-inorder-and-postorder-traversal.html">LeetCode 106 - Construct Binary Tree from Inorder and Postorder Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem105-construct-binary-tree-from-preorder-and-inorder-traversal.html">LeetCode 105 - Construct Binary Tree from Preorder and Inorder Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem107-binary-tree-level-order-traversal-ii.html">LeetCode 107 - Binary Tree Level Order Traversal II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem108-convert-sorted-array-to-binary-search-tree.html">LeetCode 108 - Convert Sorted Array to Binary Search Tree - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem109-convert-sorted-list-to-binary-search-tree.html">LeetCode 109 - Convert Sorted List to Binary Search Tree - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem110-balanced-binary-tree.html">LeetCode 110 - Balanced Binary Tree - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem112-path-sum.html">LeetCode 112 - Path Sum - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem111-minimum-depth-of-binary-tree.html">LeetCode 111 - Minimum Depth of Binary Tree - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem118-pascals-triangle.html">LeetCode 118 - Pascal's Triangle - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem119-pascals-triangle-ii.html">LeetCode 119 - Pascal's Triangle II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem122-best-time-to-buy-and-sell-stock-ii.html">LeetCode 122 - Best Time to Buy and Sell Stock II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem120-triangle.html">LeetCode 120 - Triangle - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem121-best-time-to-buy-and-sell-stock.html">LeetCode 121 - Best Time to Buy and Sell Stock - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem125-valid-palindrome.html">LeetCode 125 - Valid Palindrome - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem127-word-ladder.html">LeetCode 127 - Word Ladder - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem131-palindrome-partitioning.html">LeetCode 131 - Palindrome Partitioning - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem129-sum-root-to-leaf-numbers.html">LeetCode 129 - Sum Root to Leaf Numbers - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem134-gas-station.html">LeetCode 134 - Gas Station - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem135-candy.html">LeetCode 135 - Candy - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem136-single-number.html">LeetCode 136 - Single Number - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem139-word-break.html">LeetCode 139 - Word Break - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem141-linked-list-cycle.html">LeetCode 141 - Linked List Cycle - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem142-linked-list-cycle-ii.html">LeetCode 142 - Linked List Cycle II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem144-binary-tree-preorder-traversal.html">LeetCode 144 - Binary Tree Preorder Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem145-binary-tree-postorder-traversal.html">LeetCode 145 - Binary Tree Postorder Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem149-max-points-on-a-line.html">LeetCode 149 - Max Points on a Line - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem150-evaluate-reverse-polish-notation.html">LeetCode 150 - Evaluate Reverse Polish Notation - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem151-reverse-words-in-a-string.html">LeetCode 151 - Reverse Words in a String - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem152-maximum-product-subarray.html">LeetCode 152 - Maximum Product Subarray - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem153-find-minimum-in-rotated-sorted-array.html">LeetCode 153 - Find Minimum in Rotated Sorted Array - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem154-find-minimum-in-rotated-sorted-array-ii.html">LeetCode 154 - Find Minimum in Rotated Sorted Array II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem160-intersection-of-two-linked-lists.html">LeetCode 160 - Intersection of Two Linked Lists - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem155-min-stack.html">LeetCode 155 - Min Stack - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem162-find-peak-element.html">LeetCode 162 - Find Peak Element - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem164-maximum-gap.html">LeetCode 164 - Maximum Gap - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem165-compare-version-numbers.html">LeetCode 165 - Compare Version Numbers - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem166-fraction-to-recurring-decimal.html">LeetCode 166 - Fraction to Recurring Decimal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem168-excel-sheet-column-title.html">LeetCode 168 - Excel Sheet Column Title - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem169-problems-majority-element.html">LeetCode 169 - Majority Element - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem171-excel-sheet-column-number.html">LeetCode 171 - Excel Sheet Column Number - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem172-factorial-trailing-zeroes.html">LeetCode 172 - Factorial Trailing Zeroes - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem173-binary-search-tree-iterator.html">LeetCode 173 - Binary Search Tree Iterator - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem174-dungeon-game.html">LeetCode 174 - Dungeon Game - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem179-largest-number.html">LeetCode 179 - Largest Number - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-03-01/problem189-rotate-array.html">LeetCode 189 - Rotate Array - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem021-merge-two-sorted-lists.html">LeetCode 021 - Merge Two Sorted Lists - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem022-generate-parentheses.html">LeetCode 022 - Generate Parentheses - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem024-swap-nodes-in-pairs.html">LeetCode 024 - Swap Nodes in Pairs - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem025-reverse-nodes-in-k-group.html">LeetCode 025 - Reverse Nodes in k-Group - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem026-remove-duplicates-from-sorted-array.html">LeetCode 026 - Remove Duplicates from Sorted Array - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem027-remove-element.html">LeetCode 027 - Remove Element - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem028-implement-strstr.html">LeetCode 028 - Implement strStr() - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem029-divide-two-integers.html">LeetCode 029 - Divide Two Integers - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem031-next-permutation.html">LeetCode 031 - Next Permutation - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem033-search-in-rotated-sorted-array.html">LeetCode 033 - Search in Rotated Sorted Array - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem032-longest-valid-parentheses.html">LeetCode 032 - Longest Valid Parentheses - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem034-search-for-a-range.html">LeetCode 034 - Search for a Range - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem035-search-insert-position.html">LeetCode 035 - Search Insert Position - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem036-valid-sudoku.html">LeetCode 036 - Valid Sudoku - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem039-combination-sum.html">LeetCode 039 - Combination Sum - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem038-count-and-say.html">LeetCode 038 - Count and Say - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem041-first-missing-positive.html">LeetCode 041 - First Missing Positive - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem040-combination-sum-ii.html">LeetCode 040 - Combination Sum II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem046-permutations.html">LeetCode 046 - Permutations - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem048-rotate-image.html">LeetCode 048 - Rotate Image - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem049-anagrams.html">LeetCode 049 - Anagrams - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem053-maximum-subarray.html">LeetCode 053 - Maximum Subarray - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem056-merge-intervals.html">LeetCode 056 - Merge Intervals - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem057-insert-interval.html">LeetCode 057 - Insert Interval - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem058-length-of-last-word.html">LeetCode 058 - Length of Last Word - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem061-rotate-list.html">LeetCode 061 - Rotate List - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem062-unique-paths.html">LeetCode 062 - Unique Paths - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem063-unique-paths-ii.html">LeetCode 063 - Unique Paths II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem064-minimum-path-sum.html">LeetCode 064 - Minimum Path Sum - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem066-plus-one.html">LeetCode 066 - Plus One - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem067-add-binary.html">LeetCode 067 - Add Binary - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem070-climbing-stairs.html">LeetCode 070 - Climbing Stairs - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem069-sqrtx.html">LeetCode 069 - Sqrt(x) - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem071-simplify-path.html">LeetCode 071 - Simplify Path - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem072-edit-distance.html">LeetCode 072 - Edit Distance - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem073-set-matrix-zeroes.html">LeetCode 073 - Set Matrix Zeroes - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem074-search-a-2d-matrix.html">LeetCode 074 - Search a 2D Matrix - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem077-combinations.html">LeetCode 077 - Combinations - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem075-sort-colors.html">LeetCode 075 - Sort Colors - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem078-subsets.html">LeetCode 078 - Subsets - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem080-remove-duplicates-from-sorted-array-ii.html">LeetCode 080 - Remove Duplicates from Sorted Array II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem081-search-in-rotated-sorted-array-ii.html">LeetCode 081 - Search in Rotated Sorted Array II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem082-remove-duplicates-from-sorted-list-ii.html">LeetCode 082 - Remove Duplicates from Sorted List II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem083-remove-duplicates-from-sorted-list.html">LeetCode 083 - Remove Duplicates from Sorted List - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem088-merge-sorted-array.html">LeetCode 088 - Merge Sorted Array - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem089-gray-code.html">LeetCode 089 - Gray Code - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem090-subsets-ii.html">LeetCode 090 - Subsets II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem093-binary-tree-inorder-traversal.html">LeetCode 094 - Binary Tree Inorder Traversal - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem091-decode-ways.html">LeetCode 091 - Decode Ways - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem094-restore-ip-addresses.html">LeetCode 093 - Restore IP Addresses - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem095-unique-binary-search-trees-ii.html">LeetCode 095 - Unique Binary Search Trees II - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem096-unique-binary-search-trees.html">LeetCode 096 - Unique Binary Search Trees  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem098-validate-binary-search-tree.html">LeetCode 098 - Validate Binary Search Tree  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-15/problem100-same-tree.html">LeetCode 100 - Same Tree  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem011-container-with-most-water.html">LeetCode 011 - Container With Most Water - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem012-integer-to-roman.html">LeetCode 012 - Integer to Roman - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem013-roman-to-integer.html">LeetCode 013 - Integer to Roman - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem014-longest-common-prefix.html">LeetCode 014 - Longest Common Prefix - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem015-3sum.html">LeetCode 015 - 3Sum - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem016-3sum-closest.html">LeetCode 016 - 3Sum Closest - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem017-letter-combinations-of-a-phone-number.html">LeetCode 017 - Letter Combinations of a Phone Number - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem018-4sum.html">LeetCode 018 - 4Sum - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem019-remove-nth-node-from-end-of-list.html">LeetCode 019 - Remove Nth Node From End of List - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-08/problem020-valid-parentheses.html">LeetCode 020 - Valid Parentheses - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem001-two-sum.html">LeetCode 001 - Two Sum - 题解/solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem002-add-two-numbers.html">LeetCode 002 - Add Two Numbers - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem003-longest-substring-without-repeating-characters.html">LeetCode 003 - Longest Substring Without Repeating Characters - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem004-median-of-two-sorted-arrays.html">LeetCode 004 - Median of Two Sorted Arrays - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem005-longest-palindromic-substring.html">LeetCode 005 - Longest Palindromic Substring - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem006-zigzag-conversion.html">LeetCode 006 - ZigZag Conversion - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem007-reverse-integer.html">LeetCode 007 - Reverse Integer  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem008-string-to-integer-atoi.html">LeetCode 008 - String to Integer (atoi)  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem009-palindrome-number.html">LeetCode 009 - Palindrome Number  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-02-01/problem010-regular-expression-matching.html">LeetCode 010 - Regular Expression Matching  - 题解/Solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2015-01-01/Movie-List.html">2015年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-11-03/Liantu-QR-API.html">使用联图 QR API 生成当前网站的二维码</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-11-02/Google-QR-API.html">使用Google QR API 生成当前网站的二维码</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-10-27/java-split.html">Java使用split("|")分割竖线的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-10-23/Apostle-Walker.html">使徒行者 影评</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-10-22/Mysql-Date.html">Mysql中使用date_add和adddate操作date</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-10-14/Excel-Offset.html">Excel使用OFFSET和ROW进行隔行引用</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-10-09/Google-Code-Prettify.html">Google Code Prettify代码高亮</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-27/Ubuntu-Eclipse-Install.html">Ubuntu 12.04安装Eclipse</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-27/Ubuntu-Goagent-Setup.html">Ubuntu 12.04使用Goagent和Chrome插件SwitchySharp翻墙</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-27/Ubuntu-JDK-Install.html">Ubuntu 12.04安装JDK8</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-27/Ubuntu-Jekyll-Install.html">Ubuntu 12.04安装Jekyll调试环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-26/Jingchao-Blessing-Words.html">王景超新婚祝福</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-21/Snow-White-Killings.html">白雪公主杀人事件 影评</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-18/Words-Passing-Heart-2.html">走过心尖儿的文字2</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-17/Words-Passing-Heart-1.html">走过心尖儿的文字1</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-04/New-World.html">新世界 影评</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-03/Vim-Save-File-When-Forget-Sudo.html">Vim强制保存文件</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-09-02/Tar-Command.html">tar命令常用参数</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-08-21/Terror-Live.html">恐怖直播 影评</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-08-18/Kill-Memory.html">杀人回忆 影评</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-06-19/Spain-Out.html">西班牙出局，一个时代的终结</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-06-15/Italy-Good-Start.html">蓝衣军团的完美开局</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-06-14/Netherland-revenge.html">橙衣军团的复仇</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-06-04/come-back.html">归来</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-01-01/Because-Of-Pain.html">因为痛，所以叫青春 摘录</a></li><li class="post-list-item"><a class="post-list-link" href="/2014-01-01/Movie-List.html">2014年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2013-07-15/welcome.html">欢迎光临</a></li><li class="post-list-item"><a class="post-list-link" href="/2013-03-31/buy-kpw-from-jp-amazon.html">日本亚马逊Jshoppers转运海淘kindle paperwhite简要文字攻略</a></li><li class="post-list-item"><a class="post-list-link" href="/2013-01-01/Movie-List.html">2013年电影短评单</a></li><li class="post-list-item"><a class="post-list-link" href="/2012-06-11/Sanguosha-Full-Level.html">三国杀满级有感 - 人生需要感谢错误</a></li><li class="post-list-item"><a class="post-list-link" href="/2012-03-03/Self-In-Lab.html">一个人在实验室有感</a></li><li class="post-list-item"><a class="post-list-link" href="/2011-12-10/Devour-The-World.html">重温儿时经典 吞食天地2</a></li><li class="post-list-item"><a class="post-list-link" href="/2011-04-04/Suspects-X.html">嫌疑人X的献身 书评</a></li><li class="post-list-item"><a class="post-list-link" href="/2010-06-05/HIT-90th-Birthday.html">哈尔滨工业大学建校90周年校庆晚会 王树国献唱</a></li><li class="post-list-item"><a class="post-list-link" href="/2010-03-23/Guide-Member-Conquer-Another.html">导员又征服了一个</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        
+    </script>
+
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2020 Dong Yuxi
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的静态博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减双栏 Hexo 博客主题">Yelee</a> by MOxFIVE
+            </div>
+        </div>
+        
+    </div>
+</footer>
+    </div>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 3;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-73109217-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+<!-- Baidu Tongji -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?952562be4407fb2795160cd5a212b374";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- End Baidu Tongji -->
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  </div>
+</body>
+</html>
