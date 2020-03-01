@@ -73,7 +73,7 @@ deploy:
   repo: git@github.com:dongyuxi/dongyuxi.github.io.git
   branch: master
 - type: git
-  repo: git@git.coding.net:dongyuxi/dongyuxi.git
+  repo: git@e.coding.net:dongyuxi/dongyuxi.git
   branch: coding-pages
 
 # Sitemap
