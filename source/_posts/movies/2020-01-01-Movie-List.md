@@ -6,6 +6,17 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 水浒传
+      eng_title:  All Men Are Brothers
+      image: /img/movies/2020/all-men-are-brothers.jpg
+      douban_id: 4718246
+      imdb_id: tt1983891
+      douban_star: 5
+      release_date: 2011年01月01日
+      see_date: 2020年03月17日
+      location: 书桌
+      version: 2D
+      comment: 小的时候看过一版98年的，不同年龄看到的内容和感触真是差别太大，希望十年后再看一遍。
     - title: 决胜法庭
       eng_title: Court of final determination
       image: /img/movies/2020/court-of-final-determination.jpg
