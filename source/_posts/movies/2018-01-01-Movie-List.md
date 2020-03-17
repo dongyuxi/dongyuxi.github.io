@@ -479,7 +479,6 @@ movies:
       location: 影院
       version: 3D
       comment: 故事节奏紧凑，推理和搞笑比例比较合适，几位主演配合的也很默契，期待下一部！
-top: 9
 ---
 
 ### 网络谜踪
