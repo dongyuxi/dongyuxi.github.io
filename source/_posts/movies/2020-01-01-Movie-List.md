@@ -6,8 +6,19 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 大赢家
+      eng_title: The Winners
+      image: /img/movies/2020/the-winners.jpg
+      douban_id: 34670218
+      imdb_id: tt11563836
+      douban_star: 4
+      release_date: 2020年03月20日
+      see_date: 2020年03月20日
+      location: iPad床上
+      version: 2D
+      comment: 整部剧虽然没有超出预期，不过我觉得还挺符合我的笑点。想去看看韩国版。
     - title: 水浒传
-      eng_title:  All Men Are Brothers
+      eng_title: All Men Are Brothers
       image: /img/movies/2020/all-men-are-brothers.jpg
       douban_id: 4718246
       imdb_id: tt1983891
@@ -17,6 +28,17 @@ movies:
       location: 书桌
       version: 2D
       comment: 小的时候看过一版98年的，不同年龄看到的内容和感触真是差别太大，希望十年后再看一遍。
+    - title: 乡村爱情12
+      eng_title: Rural love 12
+      image: /img/movies/2020/rural-love-12.jpg
+      douban_id: 34678008
+      imdb_id: 34678008
+      douban_star: 4
+      release_date: 2020年01月15日
+      see_date: 2020年03月15日
+      location: 书桌
+      version: 2D
+      comment: 这一季依旧日常搞笑，多了几位村淘的新角色，但是整体进度还是比较慢，而且还拆散了几对，为下一部做准备。不愧是乡村版《权利的游戏》。
     - title: 决胜法庭
       eng_title: Court of final determination
       image: /img/movies/2020/court-of-final-determination.jpg
