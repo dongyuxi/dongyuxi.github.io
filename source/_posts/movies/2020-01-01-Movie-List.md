@@ -6,6 +6,28 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 饥饿站台
+      eng_title: El hoyo
+      image: /img/movies/2020/el-hoyo.jpg
+      douban_id: 34805219
+      imdb_id: tt8228288
+      douban_star: 4
+      release_date: 2019年09月06日
+      see_date: 2020年03月29日
+      location: 书桌
+      version: 2D
+      comment: 可能是之前看过类似的构思，感觉没那么精彩，被抖音骗来的吧。
+    - title: 刘老根3
+      eng_title: Mr Liu 3
+      image: /img/movies/2020/mr-liu-3.jpg
+      douban_id: 33437298
+      imdb_id: 33437298
+      douban_star: 4
+      release_date: 2020年02月10日
+      see_date: 2020年03月22日
+      location: 书桌
+      version: 2D
+      comment: 中间穿插着乡村爱情，甚至有点混了，不过整体还挺有意思的，虽然范伟出来了几集，感觉回来了。
     - title: 大赢家
       eng_title: The Winners
       image: /img/movies/2020/the-winners.jpg
