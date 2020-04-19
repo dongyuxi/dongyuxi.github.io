@@ -6,6 +6,50 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 神探
+      eng_title: Mad Detective
+      image: /img/movies/2020/mad-detective.jpg
+      douban_id: 2027938
+      imdb_id: tt0969269
+      douban_star: 5
+      release_date: 2007年11月29日
+      see_date: 2020年04月19日
+      location: 书桌
+      version: 2D
+      comment: 还是看粤语版的结局吧，最后的多次换枪使这部电影达到了一个新的高度。
+    - title: 不完美的她
+      eng_title: Imperfect her
+      image: /img/movies/2020/imperfect-her.jpg
+      douban_id: 33446498
+      imdb_id: tt11840972
+      douban_star: 4
+      release_date: 2020年03月27日
+      see_date: 2020年04月18日
+      location: 书桌
+      version: 2D
+      comment: 可惜了好的剧本和三位影后的加盟，节奏太慢而且结局有点突然。
+    - title: 鬼灭之刃
+      eng_title: Demon Slayer
+      image: /img/movies/2020/demon-slayer.jpg
+      douban_id: 30210221
+      imdb_id: tt9335498
+      douban_star: 5
+      release_date: 2019年04月06日
+      see_date: 2020年04月15日
+      location: 地铁
+      version: 2D
+      comment: 近期少有的符合我胃口的热血篇，最喜欢的还是柱和十二鬼月的对战，我去看漫画了。
+    - title: 重生
+      eng_title: Reborn
+      image: /img/movies/2020/reborn.jpg
+      douban_id: 30203553
+      imdb_id: tt11932060
+      douban_star: 4
+      release_date: 2020年03月07日
+      see_date: 2020年04月03日
+      location: 书桌
+      version: 2D
+      comment: 演员演技在线，给这部剧添色不少，但是为了过审，解决明显做了很多修改，导致故事不完整，人物也没交代特别清楚，实在可惜。
     - title: 饥饿站台
       eng_title: El hoyo
       image: /img/movies/2020/el-hoyo.jpg
