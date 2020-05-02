@@ -6,6 +6,17 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 龙岭迷窟
+      eng_title: The Lost Caverns
+      image: /img/movies/2020/the-lost-caverns.jpg
+      douban_id: 30488569
+      imdb_id: tt12075220
+      douban_star: 5
+      release_date: 2020年04月01日
+      see_date: 2020年05月01日
+      location: 书桌
+      version: 2D
+      comment: 整体很舒服的感觉，应该是故事比较短，集数恰到好处，期待下一部。
     - title: 神探
       eng_title: Mad Detective
       image: /img/movies/2020/mad-detective.jpg
