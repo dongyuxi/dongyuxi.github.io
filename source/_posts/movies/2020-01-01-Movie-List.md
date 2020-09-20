@@ -6,6 +6,50 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 沉默的真相
+      eng_title: The silent truth
+      image: /img/movies/2020/the-silent-truth.jpg
+      douban_id: 33447642
+      imdb_id: tt11298328
+      douban_star: 5
+      release_date: 2020年09月16日
+      see_date: 2020年09月20日
+      location: 书桌
+      version: 2D
+      comment: 只要这部小说能被翻拍我就给满分，小说看过之后会压抑很久，电视剧的3条线场景转换做的很有意思，演员演技都在线。
+    - title: 信条
+      eng_title: Tenet
+      image: /img/movies/2020/tenet.jpg
+      douban_id: 30444960
+      imdb_id: tt6723592
+      douban_star: 3
+      release_date: 2020年09月14日
+      see_date: 2020年09月06日
+      location: 电影院
+      version: 2D
+      comment: 反正我是真的没太看懂，是为了好好的告别才在未来和现实来回穿梭吗？
+    - title: 摩天大楼
+      eng_title: A Murderous Affair in Horizon Tower
+      image: /img/movies/2020/a-murderous-affair-in-horizon-tower.jpg
+      douban_id: 33393274
+      imdb_id: tt11395850
+      douban_star: 5
+      release_date: 2020年08月19日
+      see_date: 2020年09月06日
+      location: 书桌
+      version: 2D
+      comment: 剧本和拍摄都很不错，超出预期，尤其是baby的演技应该是达到了巅峰吧？
+    - title: 隐秘的角落
+      eng_title: The Bad Kids
+      image: /img/movies/2020/the-bad-kids.jpg
+      douban_id: 33404425
+      imdb_id: tt12477942
+      douban_star: 5
+      release_date: 2020年06月16日
+      see_date: 2020年07月12日
+      location: 书桌
+      version: 2D
+      comment: 终于看到《坏小孩》的剧本拍的剧了！改编的也不错，保留了原著的内核，又表达的很含蓄。
     - title: 龙岭迷窟
       eng_title: The Lost Caverns
       image: /img/movies/2020/the-lost-caverns.jpg
