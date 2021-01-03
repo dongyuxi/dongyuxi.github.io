@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://dongyuxi.top/movie-list/index.html</loc>
+    
+    <lastmod>2021-01-03T03:28:20.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://dongyuxi.top/2021-01-01/Movie-List.html</loc>
+    
+    <lastmod>2021-01-03T03:26:23.951Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://dongyuxi.top/2020-01-01/Movie-List.html</loc>
     
     <lastmod>2020-12-27T14:48:31.892Z</lastmod>
@@ -40,13 +54,6 @@
     <loc>http://dongyuxi.top/2019-01-01/Movie-List.html</loc>
     
     <lastmod>2020-03-08T04:04:19.001Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://dongyuxi.top/movie-list/index.html</loc>
-    
-    <lastmod>2020-03-01T15:45:00.035Z</lastmod>
     
   </url>
   
