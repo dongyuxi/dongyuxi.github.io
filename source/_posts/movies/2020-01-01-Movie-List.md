@@ -6,6 +6,28 @@ tags: [影评]
 date: 2020-01-01
 permalink: Movie-List
 movies:
+    - title: 侠探简不知
+      eng_title: Chivalrous Detective
+      image: /img/movies/2020/chivalrous-detective.jpg
+      douban_id: 30371563
+      imdb_id: tt12299438
+      douban_star: 5
+      release_date: 2020年09月16日
+      see_date: 2020年12月27日
+      location: 书桌
+      version: 2D
+      comment: 年轻演员演技略显青涩，整部剧情还是比较有趣，很像少年包青天，期待第二季。
+    - title: 拆弹专家2
+      eng_title: Shock Wave 2
+      image: /img/movies/2020/shock-wave-2.jpg
+      douban_id: 30171424
+      imdb_id: tt11298328
+      douban_star: 4
+      release_date: 2020年12月24日
+      see_date: 2020年12月27日
+      location: 电影院
+      version: 2D
+      comment: 中期比较精彩，后期有点落入俗套而且不合情理，华仔明年可以靠这部电影竞争最佳男主角了。
     - title: 沉默的真相
       eng_title: The silent truth
       image: /img/movies/2020/the-silent-truth.jpg
